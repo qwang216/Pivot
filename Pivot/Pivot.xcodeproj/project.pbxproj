@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504F107C1BE5298800441202 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 504F107B1BE5298800441202 /* Event.m */; };
 		D4E118581BE528C5000E0FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118571BE528C5000E0FBA /* main.m */; };
 		D4E1185B1BE528C5000E0FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1185A1BE528C5000E0FBA /* AppDelegate.m */; };
 		D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1185D1BE528C5000E0FBA /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		504F107A1BE5298800441202 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		504F107B1BE5298800441202 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		D4E118531BE528C5000E0FBA /* Pivot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pivot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E118571BE528C5000E0FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4E118591BE528C5000E0FBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				D4E118591BE528C5000E0FBA /* AppDelegate.h */,
+				504F107A1BE5298800441202 /* Event.h */,
+				504F107B1BE5298800441202 /* Event.m */,
 				D4E1185A1BE528C5000E0FBA /* AppDelegate.m */,
 				D4E1185C1BE528C5000E0FBA /* ViewController.h */,
 				D4E1185D1BE528C5000E0FBA /* ViewController.m */,
@@ -278,6 +283,7 @@
 			files = (
 				D4E118641BE528C5000E0FBA /* Pivot.xcdatamodeld in Sources */,
 				D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */,
+				504F107C1BE5298800441202 /* Event.m in Sources */,
 				D4E1185B1BE528C5000E0FBA /* AppDelegate.m in Sources */,
 				D4E118581BE528C5000E0FBA /* main.m in Sources */,
 			);
@@ -503,6 +509,7 @@
 				D4E118851BE528C5000E0FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4E118861BE528C5000E0FBA /* Build configuration list for PBXNativeTarget "PivotTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				D4E118881BE528C5000E0FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4E118891BE528C5000E0FBA /* Build configuration list for PBXNativeTarget "PivotUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				D4E1188B1BE528C5000E0FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

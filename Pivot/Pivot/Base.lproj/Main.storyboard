@@ -18,30 +18,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PIVOT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLO-DS-7rz">
-                                <rect key="frame" x="271" y="152" width="48" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIVOT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLO-DS-7rz">
+                                <rect key="frame" x="276" y="120" width="48" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="find your turning point" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgh-MF-RSX">
-                                <rect key="frame" x="209" y="200" width="170" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="find your turning point" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgh-MF-RSX">
+                                <rect key="frame" x="215.5" y="160.5" width="169.5" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMh-t2-IST">
-                                <rect key="frame" x="241" y="372" width="135" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMh-t2-IST">
+                                <rect key="frame" x="232.5" y="332" width="135" height="30"/>
                                 <animations/>
                                 <state key="normal" title="I WANT TO INSPIRE"/>
                                 <connections>
                                     <segue destination="QZi-7R-yVd" kind="show" id="njv-1F-sVU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwG-zJ-aQa">
-                                <rect key="frame" x="260" y="416" width="81" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwG-zJ-aQa">
+                                <rect key="frame" x="260" y="266" width="81" height="30"/>
                                 <animations/>
                                 <state key="normal" title="INSPIRE ME"/>
                                 <connections>
@@ -51,16 +51,32 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rgh-MF-RSX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0B6-Wu-p2f"/>
+                            <constraint firstItem="RLO-DS-7rz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9l7-WG-fCG"/>
+                            <constraint firstItem="XMh-t2-IST" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N9M-Nf-yBn"/>
+                            <constraint firstItem="XMh-t2-IST" firstAttribute="top" secondItem="rgh-MF-RSX" secondAttribute="bottom" constant="75" id="PdM-FQ-ZUW"/>
+                            <constraint firstItem="cwG-zJ-aQa" firstAttribute="top" secondItem="rgh-MF-RSX" secondAttribute="bottom" constant="85" id="daL-eR-ngH"/>
+                            <constraint firstItem="cwG-zJ-aQa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fos-av-k8l"/>
+                            <constraint firstItem="RLO-DS-7rz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="mqX-g1-GGN"/>
+                            <constraint firstItem="XMh-t2-IST" firstAttribute="top" secondItem="cwG-zJ-aQa" secondAttribute="bottom" constant="36" id="r4C-eE-sf5"/>
+                            <constraint firstItem="rgh-MF-RSX" firstAttribute="top" secondItem="RLO-DS-7rz" secondAttribute="bottom" constant="20" id="xCr-6p-w8a"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PdM-FQ-ZUW"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1198" y="426"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Pivot Feed Table View Controller-->
         <scene sceneID="Zcp-Vz-kMQ">
             <objects>
-                <tableViewController id="9NP-en-HiX" sceneMemberID="viewController">
+                <tableViewController id="9NP-en-HiX" customClass="PivotFeedTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" sectionHeaderHeight="28" sectionFooterHeight="28" id="c74-p6-FGg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="1110" y="269"/>
         </scene>
-        <!--View Controller-->
+        <!--Resources View Controller-->
         <scene sceneID="Iba-bL-QgD">
             <objects>
-                <viewController id="E2Q-gP-uPN" sceneMemberID="viewController">
+                <viewController id="E2Q-gP-uPN" customClass="ResourcesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x0x-NY-Xl2"/>
                         <viewControllerLayoutGuide type="bottom" id="O38-L0-ahU"/>
@@ -113,6 +129,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="guQ-tu-Kfu"/>
+                    <connections>
+                        <outlet property="resourcesLabel" destination="TAE-yj-5oU" id="uZr-Ed-L8p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3Z-xX-Iay" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,10 +155,10 @@
             </objects>
             <point key="canvasLocation" x="366" y="1982"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile Detail View Controller-->
         <scene sceneID="dlh-AB-3my">
             <objects>
-                <viewController id="X4y-GK-qnd" sceneMemberID="viewController">
+                <viewController id="X4y-GK-qnd" customClass="ProfileDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r2A-kc-w1X"/>
                         <viewControllerLayoutGuide type="bottom" id="9W8-Mh-bPE"/>
@@ -186,6 +205,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="descriptionTextView" destination="6S4-iR-6wE" id="nDE-Q1-I9B"/>
+                        <outlet property="yearLabel" destination="nzk-ah-j7R" id="OsE-Ya-zoU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AP6-Tg-rgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -194,7 +217,7 @@
         <!--Profile-->
         <scene sceneID="cPb-85-e6s">
             <objects>
-                <viewController id="SRV-em-DCE" sceneMemberID="viewController">
+                <viewController id="SRV-em-DCE" customClass="ProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y0a-RS-viD"/>
                         <viewControllerLayoutGuide type="bottom" id="8ny-sa-eV1"/>
@@ -337,8 +360,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Xcr-rg-2ke" kind="relationship" relationship="viewControllers" id="9zo-M7-ZAh"/>
                         <segue destination="ta2-fB-off" kind="relationship" relationship="viewControllers" id="rsQ-f8-O0m"/>
+                        <segue destination="Xcr-rg-2ke" kind="relationship" relationship="viewControllers" id="9zo-M7-ZAh"/>
                         <segue destination="1ko-yU-weZ" kind="relationship" relationship="viewControllers" id="bUY-Or-mvB"/>
                     </connections>
                 </tabBarController>
@@ -388,6 +411,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dfC-4q-oIh"/>
+        <segue reference="Yl5-KX-k21"/>
     </inferredMetricsTieBreakers>
 </document>

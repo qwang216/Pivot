@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TimelineRightTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIView *yearView;
+@property (weak, nonatomic) IBOutlet UILabel *headlineLabel;
+@property (weak, nonatomic) IBOutlet UILabel *yearLabel;
 
 @end

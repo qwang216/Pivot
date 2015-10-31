@@ -14,6 +14,10 @@
 		893D97561BE548DD001A6077 /* TimelineLeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893D97541BE548DD001A6077 /* TimelineLeftTableViewCell.xib */; };
 		893D975D1BE54993001A6077 /* TimelineRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D975B1BE54993001A6077 /* TimelineRightTableViewCell.m */; };
 		893D975E1BE54993001A6077 /* TimelineRightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893D975C1BE54993001A6077 /* TimelineRightTableViewCell.xib */; };
+		893D97651BE54F71001A6077 /* PivotFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97641BE54F71001A6077 /* PivotFeedTableViewController.m */; };
+		893D97681BE54F98001A6077 /* ResourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97671BE54F98001A6077 /* ResourcesViewController.m */; };
+		893D976B1BE54FAF001A6077 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D976A1BE54FAF001A6077 /* ProfileViewController.m */; };
+		893D976E1BE54FBC001A6077 /* ProfileDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */; };
 		D4E118581BE528C5000E0FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118571BE528C5000E0FBA /* main.m */; };
 		D4E1185B1BE528C5000E0FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1185A1BE528C5000E0FBA /* AppDelegate.m */; };
 		D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1185D1BE528C5000E0FBA /* ViewController.m */; };
@@ -57,6 +61,14 @@
 		893D975A1BE54993001A6077 /* TimelineRightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimelineRightTableViewCell.h; path = ../TimelineRightTableViewCell.h; sourceTree = "<group>"; };
 		893D975B1BE54993001A6077 /* TimelineRightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimelineRightTableViewCell.m; path = ../TimelineRightTableViewCell.m; sourceTree = "<group>"; };
 		893D975C1BE54993001A6077 /* TimelineRightTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimelineRightTableViewCell.xib; path = ../TimelineRightTableViewCell.xib; sourceTree = "<group>"; };
+		893D97631BE54F71001A6077 /* PivotFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotFeedTableViewController.h; sourceTree = "<group>"; };
+		893D97641BE54F71001A6077 /* PivotFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PivotFeedTableViewController.m; sourceTree = "<group>"; };
+		893D97661BE54F98001A6077 /* ResourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesViewController.h; sourceTree = "<group>"; };
+		893D97671BE54F98001A6077 /* ResourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesViewController.m; sourceTree = "<group>"; };
+		893D97691BE54FAF001A6077 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		893D976A1BE54FAF001A6077 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		893D976C1BE54FBC001A6077 /* ProfileDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDetailViewController.h; sourceTree = "<group>"; };
+		893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDetailViewController.m; sourceTree = "<group>"; };
 		D4E118531BE528C5000E0FBA /* Pivot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pivot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E118571BE528C5000E0FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4E118591BE528C5000E0FBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +119,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		893D975F1BE54F11001A6077 /* Timeline Left Cell */ = {
+			isa = PBXGroup;
+			children = (
+				893D97521BE548DD001A6077 /* TimelineLeftTableViewCell.h */,
+				893D97531BE548DD001A6077 /* TimelineLeftTableViewCell.m */,
+				893D97541BE548DD001A6077 /* TimelineLeftTableViewCell.xib */,
+			);
+			name = "Timeline Left Cell";
+			sourceTree = "<group>";
+		};
+		893D97601BE54F1D001A6077 /* Timeline Right Cell */ = {
+			isa = PBXGroup;
+			children = (
+				893D975A1BE54993001A6077 /* TimelineRightTableViewCell.h */,
+				893D975B1BE54993001A6077 /* TimelineRightTableViewCell.m */,
+				893D975C1BE54993001A6077 /* TimelineRightTableViewCell.xib */,
+			);
+			name = "Timeline Right Cell";
+			sourceTree = "<group>";
+		};
+		893D97611BE54F2D001A6077 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				504F107A1BE5298800441202 /* Event.h */,
+				504F107B1BE5298800441202 /* Event.m */,
+				DC6908901BE52A7F009AB0C0 /* User.h */,
+				DC6908911BE52A7F009AB0C0 /* User.m */,
+				DC6908931BE52B30009AB0C0 /* Interest.h */,
+				DC6908941BE52B30009AB0C0 /* Interest.m */,
+				D4E1188F1BE52A3C000E0FBA /* Education.h */,
+				D4E118901BE52A3C000E0FBA /* Education.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		893D97621BE54F32001A6077 /* Feed Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				893D97481BE5475B001A6077 /* PivotFeedTableViewCell.h */,
+				893D97491BE5475B001A6077 /* PivotFeedTableViewCell.m */,
+				893D974A1BE5475B001A6077 /* PivotFeedTableViewCell.xib */,
+			);
+			name = "Feed Table View Cell";
+			sourceTree = "<group>";
+		};
 		D4E1184A1BE528C5000E0FBA = {
 			isa = PBXGroup;
 			children = (
@@ -131,27 +188,22 @@
 			isa = PBXGroup;
 			children = (
 				D4E118591BE528C5000E0FBA /* AppDelegate.h */,
-				504F107A1BE5298800441202 /* Event.h */,
-				504F107B1BE5298800441202 /* Event.m */,
-				DC6908901BE52A7F009AB0C0 /* User.h */,
-				DC6908911BE52A7F009AB0C0 /* User.m */,
-				DC6908931BE52B30009AB0C0 /* Interest.h */,
-				DC6908941BE52B30009AB0C0 /* Interest.m */,
+				893D97611BE54F2D001A6077 /* Model */,
 				D4E1185A1BE528C5000E0FBA /* AppDelegate.m */,
 				D4E1185C1BE528C5000E0FBA /* ViewController.h */,
 				D4E1185D1BE528C5000E0FBA /* ViewController.m */,
-				D4E1188F1BE52A3C000E0FBA /* Education.h */,
-				D4E118901BE52A3C000E0FBA /* Education.m */,
-				893D97521BE548DD001A6077 /* TimelineLeftTableViewCell.h */,
-				893D97531BE548DD001A6077 /* TimelineLeftTableViewCell.m */,
-				893D97541BE548DD001A6077 /* TimelineLeftTableViewCell.xib */,
-				893D975A1BE54993001A6077 /* TimelineRightTableViewCell.h */,
-				893D975B1BE54993001A6077 /* TimelineRightTableViewCell.m */,
-				893D975C1BE54993001A6077 /* TimelineRightTableViewCell.xib */,
+				893D975F1BE54F11001A6077 /* Timeline Left Cell */,
+				893D97601BE54F1D001A6077 /* Timeline Right Cell */,
 				D4E1185F1BE528C5000E0FBA /* Main.storyboard */,
-				893D97481BE5475B001A6077 /* PivotFeedTableViewCell.h */,
-				893D97491BE5475B001A6077 /* PivotFeedTableViewCell.m */,
-				893D974A1BE5475B001A6077 /* PivotFeedTableViewCell.xib */,
+				893D976C1BE54FBC001A6077 /* ProfileDetailViewController.h */,
+				893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */,
+				893D97691BE54FAF001A6077 /* ProfileViewController.h */,
+				893D976A1BE54FAF001A6077 /* ProfileViewController.m */,
+				893D97661BE54F98001A6077 /* ResourcesViewController.h */,
+				893D97671BE54F98001A6077 /* ResourcesViewController.m */,
+				893D97631BE54F71001A6077 /* PivotFeedTableViewController.h */,
+				893D97641BE54F71001A6077 /* PivotFeedTableViewController.m */,
+				893D97621BE54F32001A6077 /* Feed Table View Cell */,
 				D4E118651BE528C5000E0FBA /* Assets.xcassets */,
 				D4E118671BE528C5000E0FBA /* LaunchScreen.storyboard */,
 				D4E1186A1BE528C5000E0FBA /* Info.plist */,
@@ -323,9 +375,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893D97681BE54F98001A6077 /* ResourcesViewController.m in Sources */,
 				D4E118641BE528C5000E0FBA /* Pivot.xcdatamodeld in Sources */,
 				D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */,
+				893D976E1BE54FBC001A6077 /* ProfileDetailViewController.m in Sources */,
 				DC6908921BE52A7F009AB0C0 /* User.m in Sources */,
+				893D976B1BE54FAF001A6077 /* ProfileViewController.m in Sources */,
 				504F107C1BE5298800441202 /* Event.m in Sources */,
 				D4E1185B1BE528C5000E0FBA /* AppDelegate.m in Sources */,
 				893D97551BE548DD001A6077 /* TimelineLeftTableViewCell.m in Sources */,
@@ -333,6 +388,7 @@
 				D4E118581BE528C5000E0FBA /* main.m in Sources */,
 				893D975D1BE54993001A6077 /* TimelineRightTableViewCell.m in Sources */,
 				893D974B1BE5475B001A6077 /* PivotFeedTableViewCell.m in Sources */,
+				893D97651BE54F71001A6077 /* PivotFeedTableViewController.m in Sources */,
 				DC6908951BE52B30009AB0C0 /* Interest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

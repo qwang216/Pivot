@@ -15,7 +15,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHN-bl-6Do">
-                        <rect key="frame" x="140" y="50.5" width="42" height="20.5"/>
+                        <rect key="frame" x="140" y="50" width="42" height="20.5"/>
                         <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -23,11 +23,22 @@
                     </label>
                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xv4-lA-M65">
                         <rect key="frame" x="8" y="11" width="100" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pV5-5f-BTD">
+                                <rect key="frame" x="29" y="40" width="42" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="pV5-5f-BTD" firstAttribute="centerY" secondItem="Xv4-lA-M65" secondAttribute="centerY" id="Dvf-aF-eP8"/>
                             <constraint firstAttribute="width" constant="100" id="ODR-b9-BFV"/>
                             <constraint firstAttribute="height" constant="100" id="SBz-iS-Csd"/>
+                            <constraint firstItem="pV5-5f-BTD" firstAttribute="centerX" secondItem="Xv4-lA-M65" secondAttribute="centerX" id="n1e-gz-fOT"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -40,6 +51,11 @@
                 </constraints>
             </tableViewCellContentView>
             <animations/>
+            <connections>
+                <outlet property="headlineLabel" destination="CHN-bl-6Do" id="8zd-x1-YGv"/>
+                <outlet property="yearLabel" destination="pV5-5f-BTD" id="lh6-EV-Lua"/>
+                <outlet property="yearView" destination="Xv4-lA-M65" id="Af5-wg-Yx5"/>
+            </connections>
             <point key="canvasLocation" x="506" y="498"/>
         </tableViewCell>
     </objects>

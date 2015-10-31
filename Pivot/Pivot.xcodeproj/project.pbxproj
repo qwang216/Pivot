@@ -18,6 +18,8 @@
 		893D97681BE54F98001A6077 /* ResourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97671BE54F98001A6077 /* ResourcesViewController.m */; };
 		893D976B1BE54FAF001A6077 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D976A1BE54FAF001A6077 /* ProfileViewController.m */; };
 		893D976E1BE54FBC001A6077 /* ProfileDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */; };
+		D48A8E3D1BE55CB800223727 /* PivotTechieProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48A8E3C1BE55CB800223727 /* PivotTechieProfileViewController.m */; };
+		D48A8E401BE55D0400223727 /* PivotTechieProfileDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48A8E3F1BE55D0400223727 /* PivotTechieProfileDetailViewController.m */; };
 		D4E118581BE528C5000E0FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118571BE528C5000E0FBA /* main.m */; };
 		D4E1185B1BE528C5000E0FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1185A1BE528C5000E0FBA /* AppDelegate.m */; };
 		D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1185D1BE528C5000E0FBA /* ViewController.m */; };
@@ -69,6 +71,10 @@
 		893D976A1BE54FAF001A6077 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		893D976C1BE54FBC001A6077 /* ProfileDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDetailViewController.h; sourceTree = "<group>"; };
 		893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDetailViewController.m; sourceTree = "<group>"; };
+		D48A8E3B1BE55CB800223727 /* PivotTechieProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotTechieProfileViewController.h; sourceTree = "<group>"; };
+		D48A8E3C1BE55CB800223727 /* PivotTechieProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PivotTechieProfileViewController.m; sourceTree = "<group>"; };
+		D48A8E3E1BE55D0400223727 /* PivotTechieProfileDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotTechieProfileDetailViewController.h; sourceTree = "<group>"; };
+		D48A8E3F1BE55D0400223727 /* PivotTechieProfileDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PivotTechieProfileDetailViewController.m; sourceTree = "<group>"; };
 		D4E118531BE528C5000E0FBA /* Pivot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pivot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E118571BE528C5000E0FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4E118591BE528C5000E0FBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,12 +194,9 @@
 			isa = PBXGroup;
 			children = (
 				D4E118591BE528C5000E0FBA /* AppDelegate.h */,
-				893D97611BE54F2D001A6077 /* Model */,
 				D4E1185A1BE528C5000E0FBA /* AppDelegate.m */,
 				D4E1185C1BE528C5000E0FBA /* ViewController.h */,
 				D4E1185D1BE528C5000E0FBA /* ViewController.m */,
-				893D975F1BE54F11001A6077 /* Timeline Left Cell */,
-				893D97601BE54F1D001A6077 /* Timeline Right Cell */,
 				D4E1185F1BE528C5000E0FBA /* Main.storyboard */,
 				893D976C1BE54FBC001A6077 /* ProfileDetailViewController.h */,
 				893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */,
@@ -203,6 +206,13 @@
 				893D97671BE54F98001A6077 /* ResourcesViewController.m */,
 				893D97631BE54F71001A6077 /* PivotFeedTableViewController.h */,
 				893D97641BE54F71001A6077 /* PivotFeedTableViewController.m */,
+				D48A8E3B1BE55CB800223727 /* PivotTechieProfileViewController.h */,
+				D48A8E3C1BE55CB800223727 /* PivotTechieProfileViewController.m */,
+				D48A8E3E1BE55D0400223727 /* PivotTechieProfileDetailViewController.h */,
+				D48A8E3F1BE55D0400223727 /* PivotTechieProfileDetailViewController.m */,
+				893D97611BE54F2D001A6077 /* Model */,
+				893D975F1BE54F11001A6077 /* Timeline Left Cell */,
+				893D97601BE54F1D001A6077 /* Timeline Right Cell */,
 				893D97621BE54F32001A6077 /* Feed Table View Cell */,
 				D4E118651BE528C5000E0FBA /* Assets.xcassets */,
 				D4E118671BE528C5000E0FBA /* LaunchScreen.storyboard */,
@@ -380,12 +390,14 @@
 				D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */,
 				893D976E1BE54FBC001A6077 /* ProfileDetailViewController.m in Sources */,
 				DC6908921BE52A7F009AB0C0 /* User.m in Sources */,
+				D48A8E3D1BE55CB800223727 /* PivotTechieProfileViewController.m in Sources */,
 				893D976B1BE54FAF001A6077 /* ProfileViewController.m in Sources */,
 				504F107C1BE5298800441202 /* Event.m in Sources */,
 				D4E1185B1BE528C5000E0FBA /* AppDelegate.m in Sources */,
 				893D97551BE548DD001A6077 /* TimelineLeftTableViewCell.m in Sources */,
 				D4E118911BE52A3C000E0FBA /* Education.m in Sources */,
 				D4E118581BE528C5000E0FBA /* main.m in Sources */,
+				D48A8E401BE55D0400223727 /* PivotTechieProfileDetailViewController.m in Sources */,
 				893D975D1BE54993001A6077 /* TimelineRightTableViewCell.m in Sources */,
 				893D974B1BE5475B001A6077 /* PivotFeedTableViewCell.m in Sources */,
 				893D97651BE54F71001A6077 /* PivotFeedTableViewController.m in Sources */,

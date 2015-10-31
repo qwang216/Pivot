@@ -1,22 +1,20 @@
 //
-//  ProfileViewController.m
+//  PivotTechieProfileDetailViewController.m
 //  Pivot
 //
-//  Created by Lauren Caponong on 10/31/15.
+//  Created by Jason Wang on 10/31/15.
 //  Copyright © 2015 Jason Wang. All rights reserved.
 //
 
-#import "ProfileViewController.h"
+#import "PivotTechieProfileDetailViewController.h"
 
-@interface ProfileViewController ()
-@property (strong, nonatomic) IBOutlet UIImageView *profileImageView;
-@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
-@property (strong, nonatomic) IBOutlet UILabel *educationLabel;
-@property (strong, nonatomic) IBOutlet UILabel *professionLabel;
+@interface PivotTechieProfileDetailViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *yearLabel;
+@property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
 
 @end
 
-@implementation ProfileViewController
+@implementation PivotTechieProfileDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

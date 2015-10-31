@@ -7,6 +7,7 @@
 //
 
 #import "ProfileViewController.h"
+#import <ChameleonFramework/Chameleon.h>
 
 @interface ProfileViewController ()
 @property (strong, nonatomic) IBOutlet UIImageView *profileImageView;

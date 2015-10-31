@@ -7,6 +7,7 @@
 //
 
 #import "PivotTechieProfileViewController.h"
+#import <ChameleonFramework/Chameleon.h>
 
 @interface PivotTechieProfileViewController ()
 @property (strong, nonatomic) IBOutlet UIImageView *profileImageView;

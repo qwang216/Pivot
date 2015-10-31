@@ -12,4 +12,6 @@
 @interface Dataset : NSObject
 @property (nonatomic) NSMutableArray<User *> *users;
 
+-(instancetype)initWithUsers;
+
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "PivotTechieProfileDetailViewController.h"
+#import <ChameleonFramework/Chameleon.h>
 
 @interface PivotTechieProfileDetailViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *yearLabel;

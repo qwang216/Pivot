@@ -7,6 +7,8 @@
 //
 
 #import "ProfileDetailViewController.h"
+#import <ChameleonFramework/Chameleon.h>
+
 
 @interface ProfileDetailViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *yearLabel;

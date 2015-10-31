@@ -7,8 +7,14 @@
 //
 
 #import "PivotFeedTableViewController.h"
+#import "PivotFeedTableViewCell.h"
+#import "PivotTechieProfileViewController.h"
+#import "Dataset.h"
+#import <ChameleonFramework/Chameleon.h>
 
-@interface PivotFeedTableViewController ()
+
+@interface PivotFeedTableViewController () <UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic) Dataset *tableViewData;
 
 @end
 
@@ -17,11 +23,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.tableViewData = [[Dataset alloc] initWithUsers];
+    
+    UINib *nib = [UINib nibWithNibName:@"PivotFeedTableViewCell" bundle:nil];
+    
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"PivotFeedCellID"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,24 +41,37 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+
+    return [self.tableViewData.users count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    PivotFeedTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PivotTVCID" forIndexPath:indexPath];
     
+    User *currentUser = self.tableViewData.users[indexPath.row];
+    
+    cell.pivotImageView.image = currentUser.picture;
+    cell.jobLabel.text = currentUser.profession;
+    
+    
+    for (int i = 0; i < [currentUser.events count]; i++) {
+        
+        Event *event = currentUser.events[i];
+        
+        if (event.pivotPoint) {
+            cell.pivotHeadLineLabel.text = event.headline;
+        }
+    }
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -85,14 +107,19 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
+    PivotTechieProfileViewController *profileVC = [segue destinationViewController];
+    
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    
+    profileVC.user = self.tableViewData.users[indexPath.row];
+    
 }
-*/
+
 
 @end

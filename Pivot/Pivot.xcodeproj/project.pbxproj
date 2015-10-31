@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E118581BE528C5000E0FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118571BE528C5000E0FBA /* main.m */; };
+		D4E1185B1BE528C5000E0FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1185A1BE528C5000E0FBA /* AppDelegate.m */; };
+		D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1185D1BE528C5000E0FBA /* ViewController.m */; };
+		D4E118611BE528C5000E0FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E1185F1BE528C5000E0FBA /* Main.storyboard */; };
+		D4E118641BE528C5000E0FBA /* Pivot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4E118621BE528C5000E0FBA /* Pivot.xcdatamodeld */; };
+		D4E118661BE528C5000E0FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E118651BE528C5000E0FBA /* Assets.xcassets */; };
+		D4E118691BE528C5000E0FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E118671BE528C5000E0FBA /* LaunchScreen.storyboard */; };
+		D4E118741BE528C5000E0FBA /* PivotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118731BE528C5000E0FBA /* PivotTests.m */; };
+		D4E1187F1BE528C5000E0FBA /* PivotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1187E1BE528C5000E0FBA /* PivotUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E118701BE528C5000E0FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E1184B1BE528C5000E0FBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E118521BE528C5000E0FBA;
+			remoteInfo = Pivot;
+		};
+		D4E1187B1BE528C5000E0FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E1184B1BE528C5000E0FBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E118521BE528C5000E0FBA;
+			remoteInfo = Pivot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4E118531BE528C5000E0FBA /* Pivot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pivot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E118571BE528C5000E0FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4E118591BE528C5000E0FBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4E1185A1BE528C5000E0FBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4E1185C1BE528C5000E0FBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4E1185D1BE528C5000E0FBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4E118601BE528C5000E0FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4E118631BE528C5000E0FBA /* Pivot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pivot.xcdatamodel; sourceTree = "<group>"; };
+		D4E118651BE528C5000E0FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4E118681BE528C5000E0FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4E1186A1BE528C5000E0FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E1186F1BE528C5000E0FBA /* PivotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PivotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E118731BE528C5000E0FBA /* PivotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PivotTests.m; sourceTree = "<group>"; };
+		D4E118751BE528C5000E0FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E1187A1BE528C5000E0FBA /* PivotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PivotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E1187E1BE528C5000E0FBA /* PivotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PivotUITests.m; sourceTree = "<group>"; };
+		D4E118801BE528C5000E0FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E118501BE528C5000E0FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E1186C1BE528C5000E0FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E118771BE528C5000E0FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E1184A1BE528C5000E0FBA = {
+			isa = PBXGroup;
+			children = (
+				D4E118551BE528C5000E0FBA /* Pivot */,
+				D4E118721BE528C5000E0FBA /* PivotTests */,
+				D4E1187D1BE528C5000E0FBA /* PivotUITests */,
+				D4E118541BE528C5000E0FBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E118541BE528C5000E0FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E118531BE528C5000E0FBA /* Pivot.app */,
+				D4E1186F1BE528C5000E0FBA /* PivotTests.xctest */,
+				D4E1187A1BE528C5000E0FBA /* PivotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E118551BE528C5000E0FBA /* Pivot */ = {
+			isa = PBXGroup;
+			children = (
+				D4E118591BE528C5000E0FBA /* AppDelegate.h */,
+				D4E1185A1BE528C5000E0FBA /* AppDelegate.m */,
+				D4E1185C1BE528C5000E0FBA /* ViewController.h */,
+				D4E1185D1BE528C5000E0FBA /* ViewController.m */,
+				D4E1185F1BE528C5000E0FBA /* Main.storyboard */,
+				D4E118651BE528C5000E0FBA /* Assets.xcassets */,
+				D4E118671BE528C5000E0FBA /* LaunchScreen.storyboard */,
+				D4E1186A1BE528C5000E0FBA /* Info.plist */,
+				D4E118621BE528C5000E0FBA /* Pivot.xcdatamodeld */,
+				D4E118561BE528C5000E0FBA /* Supporting Files */,
+			);
+			path = Pivot;
+			sourceTree = "<group>";
+		};
+		D4E118561BE528C5000E0FBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4E118571BE528C5000E0FBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4E118721BE528C5000E0FBA /* PivotTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E118731BE528C5000E0FBA /* PivotTests.m */,
+				D4E118751BE528C5000E0FBA /* Info.plist */,
+			);
+			path = PivotTests;
+			sourceTree = "<group>";
+		};
+		D4E1187D1BE528C5000E0FBA /* PivotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E1187E1BE528C5000E0FBA /* PivotUITests.m */,
+				D4E118801BE528C5000E0FBA /* Info.plist */,
+			);
+			path = PivotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E118521BE528C5000E0FBA /* Pivot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E118831BE528C5000E0FBA /* Build configuration list for PBXNativeTarget "Pivot" */;
+			buildPhases = (
+				D4E1184F1BE528C5000E0FBA /* Sources */,
+				D4E118501BE528C5000E0FBA /* Frameworks */,
+				D4E118511BE528C5000E0FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pivot;
+			productName = Pivot;
+			productReference = D4E118531BE528C5000E0FBA /* Pivot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E1186E1BE528C5000E0FBA /* PivotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E118861BE528C5000E0FBA /* Build configuration list for PBXNativeTarget "PivotTests" */;
+			buildPhases = (
+				D4E1186B1BE528C5000E0FBA /* Sources */,
+				D4E1186C1BE528C5000E0FBA /* Frameworks */,
+				D4E1186D1BE528C5000E0FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E118711BE528C5000E0FBA /* PBXTargetDependency */,
+			);
+			name = PivotTests;
+			productName = PivotTests;
+			productReference = D4E1186F1BE528C5000E0FBA /* PivotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4E118791BE528C5000E0FBA /* PivotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E118891BE528C5000E0FBA /* Build configuration list for PBXNativeTarget "PivotUITests" */;
+			buildPhases = (
+				D4E118761BE528C5000E0FBA /* Sources */,
+				D4E118771BE528C5000E0FBA /* Frameworks */,
+				D4E118781BE528C5000E0FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E1187C1BE528C5000E0FBA /* PBXTargetDependency */,
+			);
+			name = PivotUITests;
+			productName = PivotUITests;
+			productReference = D4E1187A1BE528C5000E0FBA /* PivotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E1184B1BE528C5000E0FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jason Wang";
+				TargetAttributes = {
+					D4E118521BE528C5000E0FBA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 55V3ELH4AV;
+					};
+					D4E1186E1BE528C5000E0FBA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 55V3ELH4AV;
+						TestTargetID = D4E118521BE528C5000E0FBA;
+					};
+					D4E118791BE528C5000E0FBA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 55V3ELH4AV;
+						TestTargetID = D4E118521BE528C5000E0FBA;
+					};
+				};
+			};
+			buildConfigurationList = D4E1184E1BE528C5000E0FBA /* Build configuration list for PBXProject "Pivot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4E1184A1BE528C5000E0FBA;
+			productRefGroup = D4E118541BE528C5000E0FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E118521BE528C5000E0FBA /* Pivot */,
+				D4E1186E1BE528C5000E0FBA /* PivotTests */,
+				D4E118791BE528C5000E0FBA /* PivotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E118511BE528C5000E0FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E118691BE528C5000E0FBA /* LaunchScreen.storyboard in Resources */,
+				D4E118661BE528C5000E0FBA /* Assets.xcassets in Resources */,
+				D4E118611BE528C5000E0FBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E1186D1BE528C5000E0FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E118781BE528C5000E0FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E1184F1BE528C5000E0FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E118641BE528C5000E0FBA /* Pivot.xcdatamodeld in Sources */,
+				D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */,
+				D4E1185B1BE528C5000E0FBA /* AppDelegate.m in Sources */,
+				D4E118581BE528C5000E0FBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E1186B1BE528C5000E0FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E118741BE528C5000E0FBA /* PivotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E118761BE528C5000E0FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E1187F1BE528C5000E0FBA /* PivotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E118711BE528C5000E0FBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E118521BE528C5000E0FBA /* Pivot */;
+			targetProxy = D4E118701BE528C5000E0FBA /* PBXContainerItemProxy */;
+		};
+		D4E1187C1BE528C5000E0FBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E118521BE528C5000E0FBA /* Pivot */;
+			targetProxy = D4E1187B1BE528C5000E0FBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4E1185F1BE528C5000E0FBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E118601BE528C5000E0FBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E118671BE528C5000E0FBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E118681BE528C5000E0FBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4E118811BE528C5000E0FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4E118821BE528C5000E0FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E118841BE528C5000E0FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pivot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonwang.Pivot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4E118851BE528C5000E0FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pivot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonwang.Pivot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4E118871BE528C5000E0FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PivotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonwang.PivotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pivot.app/Pivot";
+			};
+			name = Debug;
+		};
+		D4E118881BE528C5000E0FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PivotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonwang.PivotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pivot.app/Pivot";
+			};
+			name = Release;
+		};
+		D4E1188A1BE528C5000E0FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PivotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonwang.PivotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pivot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4E1188B1BE528C5000E0FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PivotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonwang.PivotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pivot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E1184E1BE528C5000E0FBA /* Build configuration list for PBXProject "Pivot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E118811BE528C5000E0FBA /* Debug */,
+				D4E118821BE528C5000E0FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E118831BE528C5000E0FBA /* Build configuration list for PBXNativeTarget "Pivot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E118841BE528C5000E0FBA /* Debug */,
+				D4E118851BE528C5000E0FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4E118861BE528C5000E0FBA /* Build configuration list for PBXNativeTarget "PivotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E118871BE528C5000E0FBA /* Debug */,
+				D4E118881BE528C5000E0FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4E118891BE528C5000E0FBA /* Build configuration list for PBXNativeTarget "PivotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E1188A1BE528C5000E0FBA /* Debug */,
+				D4E1188B1BE528C5000E0FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4E118621BE528C5000E0FBA /* Pivot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4E118631BE528C5000E0FBA /* Pivot.xcdatamodel */,
+			);
+			currentVersion = D4E118631BE528C5000E0FBA /* Pivot.xcdatamodel */;
+			path = Pivot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4E1184B1BE528C5000E0FBA /* Project object */;
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		504F107C1BE5298800441202 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 504F107B1BE5298800441202 /* Event.m */; };
+		506437921BE561D200D0D1FB /* Dataset.m in Sources */ = {isa = PBXBuildFile; fileRef = 506437911BE561D200D0D1FB /* Dataset.m */; };
 		893D974B1BE5475B001A6077 /* PivotFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97491BE5475B001A6077 /* PivotFeedTableViewCell.m */; };
 		893D974C1BE5475B001A6077 /* PivotFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893D974A1BE5475B001A6077 /* PivotFeedTableViewCell.xib */; };
 		893D97551BE548DD001A6077 /* TimelineLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97531BE548DD001A6077 /* TimelineLeftTableViewCell.m */; };
@@ -54,6 +55,8 @@
 /* Begin PBXFileReference section */
 		504F107A1BE5298800441202 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		504F107B1BE5298800441202 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		506437901BE561D200D0D1FB /* Dataset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dataset.h; sourceTree = "<group>"; };
+		506437911BE561D200D0D1FB /* Dataset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dataset.m; sourceTree = "<group>"; };
 		893D97481BE5475B001A6077 /* PivotFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotFeedTableViewCell.h; sourceTree = "<group>"; };
 		893D97491BE5475B001A6077 /* PivotFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PivotFeedTableViewCell.m; sourceTree = "<group>"; };
 		893D974A1BE5475B001A6077 /* PivotFeedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PivotFeedTableViewCell.xib; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				DC6908941BE52B30009AB0C0 /* Interest.m */,
 				D4E1188F1BE52A3C000E0FBA /* Education.h */,
 				D4E118901BE52A3C000E0FBA /* Education.m */,
+				506437901BE561D200D0D1FB /* Dataset.h */,
+				506437911BE561D200D0D1FB /* Dataset.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				D4E118581BE528C5000E0FBA /* main.m in Sources */,
 				D48A8E401BE55D0400223727 /* PivotTechieProfileDetailViewController.m in Sources */,
 				893D975D1BE54993001A6077 /* TimelineRightTableViewCell.m in Sources */,
+				506437921BE561D200D0D1FB /* Dataset.m in Sources */,
 				893D974B1BE5475B001A6077 /* PivotFeedTableViewCell.m in Sources */,
 				893D97651BE54F71001A6077 /* PivotFeedTableViewController.m in Sources */,
 				DC6908951BE52B30009AB0C0 /* Interest.m in Sources */,

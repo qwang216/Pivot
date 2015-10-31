@@ -12,6 +12,6 @@
 @property (nonatomic) NSString *year;
 @property (nonatomic) NSString *headline;
 @property (nonatomic) NSString *details;
-@property (nonatomic) BOOL *pivotPoint;
+@property (nonatomic) BOOL pivotPoint;
 
 @end

@@ -17,9 +17,12 @@
 		D4E118691BE528C5000E0FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E118671BE528C5000E0FBA /* LaunchScreen.storyboard */; };
 		D4E118741BE528C5000E0FBA /* PivotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118731BE528C5000E0FBA /* PivotTests.m */; };
 		D4E1187F1BE528C5000E0FBA /* PivotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1187E1BE528C5000E0FBA /* PivotUITests.m */; };
-		D4E118911BE52A3C000E0FBA /* Education.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118901BE52A3C000E0FBA /* Education.m */; };
+<<<<<<< HEAD
 		DC6908921BE52A7F009AB0C0 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6908911BE52A7F009AB0C0 /* User.m */; };
 		DC6908951BE52B30009AB0C0 /* Interest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6908941BE52B30009AB0C0 /* Interest.m */; };
+=======
+		D4E118911BE52A3C000E0FBA /* Education.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118901BE52A3C000E0FBA /* Education.m */; };
+>>>>>>> 79c20ce6cc6031b0c0479332a88b4ce1c85e0af1
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +62,15 @@
 		D4E1187A1BE528C5000E0FBA /* PivotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PivotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E1187E1BE528C5000E0FBA /* PivotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PivotUITests.m; sourceTree = "<group>"; };
 		D4E118801BE528C5000E0FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4E1188F1BE52A3C000E0FBA /* Education.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Education.h; sourceTree = "<group>"; };
-		D4E118901BE52A3C000E0FBA /* Education.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Education.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		DC6908901BE52A7F009AB0C0 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		DC6908911BE52A7F009AB0C0 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		DC6908931BE52B30009AB0C0 /* Interest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interest.h; sourceTree = "<group>"; };
 		DC6908941BE52B30009AB0C0 /* Interest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interest.m; sourceTree = "<group>"; };
+=======
+		D4E1188F1BE52A3C000E0FBA /* Education.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Education.h; sourceTree = "<group>"; };
+		D4E118901BE52A3C000E0FBA /* Education.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Education.m; sourceTree = "<group>"; };
+>>>>>>> 79c20ce6cc6031b0c0479332a88b4ce1c85e0af1
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

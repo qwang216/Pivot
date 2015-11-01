@@ -69,12 +69,12 @@
     
     
 //    if (indexPath.row % 2) {
-        TimelineLeftTableViewCell *leftCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileLeftTVCID" forIndexPath:indexPath];
+        TimelineLeftTableViewCell *leftCell = [tableView dequeueReusableCellWithIdentifier:@"UserProfileRightCellID" forIndexPath:indexPath];
         Event *event = self.myArray[indexPath.row];
         leftCell.yearLabel2.text = event.year;
         leftCell.headLineLabel2.text = event.headline;
-        leftCell.yearView.layer.cornerRadius = 45;
-        leftCell.yearView.layer.masksToBounds = YES;
+        leftCell.yearView2.layer.cornerRadius = 45;
+        leftCell.yearView2.layer.masksToBounds = YES;
         
         return leftCell;
 ////    } else {

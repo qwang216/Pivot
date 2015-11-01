@@ -25,8 +25,8 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     UINavigationController *nav = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileNavControllerID"];
     
-    AddExperienceViewController *vc = (AddExperienceViewController *)nav.topViewController;
-    vc.delegate = self;
+   // AddExperienceViewController *vc = (AddExperienceViewController *)nav.topViewController;
+    //vc.delegate = self;
     
 }
 

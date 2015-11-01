@@ -17,6 +17,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *yearLabel2;
 
+@property (strong, nonatomic) IBOutlet UIView *yearView2;
 
 @property (strong, nonatomic) IBOutlet UILabel *headLineLabel2;
 

@@ -13,6 +13,7 @@
 #import "TimelineLeftTableViewCell.h"
 #import "TimelineRightTableViewCell.h"
 #import "ProfileDetailViewController.h"
+#import "AddExperienceViewController.h"
 
 @interface ProfileViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UIImageView *profileImageView;
@@ -82,11 +83,16 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
+    if ([segue.identifier isEqualToString:@"addExperienceSegue"] ) {
+        AddExperienceViewController *experienceVC = [segue destinationViewController];
+        
+    } else {
     ProfileDetailViewController *profileDetailVC = [segue destinationViewController];
     
     NSIndexPath *indexPath = [self.profileTimelineTableView indexPathForSelectedRow];
     
     profileDetailVC.event = self.user.events[indexPath.row];
+    }
     
 }
 @end

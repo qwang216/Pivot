@@ -577,7 +577,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IxZ-Bx-xAa">
                                 <rect key="frame" x="100" y="284" width="400" height="30"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.37881146729999998" green="0.88614004629999998" blue="0.33100621499999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.37881146729999998" green="0.88614004629999998" blue="0.33100621499999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="SAVE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -688,6 +688,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-6F-d4f">
                                         <rect key="frame" x="10" y="10" width="125" height="125"/>
                                         <animations/>
+                                        <color key="backgroundColor" red="0.88297275641025641" green="0.88297275641025641" blue="0.88297275641025641" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="125" id="CsJ-GD-h0V"/>
                                             <constraint firstAttribute="width" constant="125" id="dJ8-LN-ipz"/>
@@ -715,12 +716,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zzw-aP-aNc">
-                                        <rect key="frame" x="150" y="83.5" width="125" height="30"/>
+                                        <rect key="frame" x="145" y="83.5" width="125" height="30"/>
                                         <animations/>
-                                        <color key="backgroundColor" red="0.37881146729999998" green="0.88614004629999998" blue="0.33100621499999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125" id="La4-ga-B7E"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="13"/>
                                         <color key="tintColor" red="0.37881146729999998" green="0.88614004629999998" blue="0.33100621499999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="CONNECT +">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -730,7 +732,7 @@
                                 <animations/>
                                 <color key="backgroundColor" red="0.97629381609999999" green="0.97629381609999999" blue="0.97629381609999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Zzw-aP-aNc" firstAttribute="leading" secondItem="kNc-6F-d4f" secondAttribute="trailing" constant="15" id="1QP-kl-VTQ"/>
+                                    <constraint firstItem="Zzw-aP-aNc" firstAttribute="leading" secondItem="kNc-6F-d4f" secondAttribute="trailing" constant="10" id="1QP-kl-VTQ"/>
                                     <constraint firstItem="kNc-6F-d4f" firstAttribute="leading" secondItem="1aZ-Wj-lML" secondAttribute="leading" constant="10" id="2sx-CQ-8bx"/>
                                     <constraint firstItem="Zzw-aP-aNc" firstAttribute="top" secondItem="0HI-Je-gUK" secondAttribute="bottom" constant="5" id="4dB-B9-hqz"/>
                                     <constraint firstAttribute="height" constant="150" id="9eb-lE-nLg"/>
@@ -776,7 +778,7 @@
                                                         </label>
                                                     </subviews>
                                                     <animations/>
-                                                    <color key="backgroundColor" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="90" id="5fN-sP-j9P"/>
                                                         <constraint firstItem="V1U-2N-viW" firstAttribute="centerX" secondItem="1tm-Vs-azf" secondAttribute="centerX" id="Mde-G0-KPY"/>
@@ -802,7 +804,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="X4y-GK-qnd" kind="show" id="8KC-WN-jYi"/>
+                                            <segue destination="X4y-GK-qnd" kind="show" identifier="profileDetailSegue" id="8KC-WN-jYi"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UserProfileLeftCellID" rowHeight="122" id="Zyd-tX-yB6">
@@ -824,7 +826,7 @@
                                                         </label>
                                                     </subviews>
                                                     <animations/>
-                                                    <color key="backgroundColor" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="kqC-vW-IQy" firstAttribute="centerX" secondItem="yTd-E1-xaK" secondAttribute="centerX" id="XvU-Es-ZCO"/>
                                                         <constraint firstItem="kqC-vW-IQy" firstAttribute="top" secondItem="yTd-E1-xaK" secondAttribute="top" constant="34" id="Zdb-i7-Ksn"/>
@@ -845,12 +847,19 @@
                                             <animations/>
                                             <constraints>
                                                 <constraint firstItem="cXy-al-na6" firstAttribute="centerY" secondItem="VNQ-CF-m99" secondAttribute="centerY" id="Bqb-9j-Cbu"/>
+                                                <constraint firstAttribute="trailing" secondItem="yTd-E1-xaK" secondAttribute="trailing" constant="10" id="NHv-rg-W1m"/>
                                                 <constraint firstItem="yTd-E1-xaK" firstAttribute="centerY" secondItem="VNQ-CF-m99" secondAttribute="centerY" id="QQ6-3y-8FT"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="yTd-E1-xaK" secondAttribute="bottom" constant="13.5" id="SO7-oA-6ta"/>
                                                 <constraint firstAttribute="trailing" secondItem="yTd-E1-xaK" secondAttribute="trailing" constant="10" id="STm-8V-7ET"/>
+                                                <constraint firstItem="yTd-E1-xaK" firstAttribute="top" secondItem="VNQ-CF-m99" secondAttribute="top" constant="10" id="evx-NB-dvI"/>
                                                 <constraint firstItem="yTd-E1-xaK" firstAttribute="leading" secondItem="cXy-al-na6" secondAttribute="trailing" constant="25" id="ngd-En-0G7"/>
                                                 <constraint firstItem="yTd-E1-xaK" firstAttribute="top" secondItem="VNQ-CF-m99" secondAttribute="top" constant="10" id="oMk-gF-ULs"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="QQ6-3y-8FT"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <animations/>
                                     </tableViewCell>
@@ -880,7 +889,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="xZ6-xG-tOj">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
-                                <segue destination="1Am-BJ-zuR" kind="show" id="Xxr-00-1sW"/>
+                                <segue destination="1Am-BJ-zuR" kind="show" identifier="addExperienceSegue" id="Xxr-00-1sW"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

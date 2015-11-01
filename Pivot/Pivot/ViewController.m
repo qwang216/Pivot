@@ -20,8 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     
-    [self.videoView setBackGroundVideo:@"video" withRepeat:YES withOverlayColor:[UIColor blackColor] andAlpha:0.2];
+    [self.videoView setBackGroundVideo:@"video" withRepeat:YES withOverlayColor:[UIColor clearColor] andAlpha:0.9 andBackgroundScalingMode:CROCOVideoBackgroundModeAspectFill];
     
     
 }

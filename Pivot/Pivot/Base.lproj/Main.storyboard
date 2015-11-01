@@ -17,7 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Egb-wN-QNQ">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJS-bR-8kW" userLabel="VideoView">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Egb-wN-QNQ" userLabel="Clear View">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PIVOT-logo" translatesAutoresizingMaskIntoConstraints="NO" id="TQe-Nj-7yL">
@@ -29,7 +34,7 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMh-t2-IST">
-                                        <rect key="frame" x="209" y="360.5" width="182" height="40"/>
+                                        <rect key="frame" x="209" y="360" width="182" height="40"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <state key="normal" title="I WANT TO INSPIRE">
@@ -40,7 +45,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwG-zJ-aQa">
-                                        <rect key="frame" x="246" y="415.5" width="108" height="40"/>
+                                        <rect key="frame" x="246" y="415" width="108" height="40"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <state key="normal" title="INSPIRE ME">
@@ -59,7 +64,7 @@
                                     </label>
                                 </subviews>
                                 <animations/>
-                                <color key="backgroundColor" red="0.18039215689999999" green="0.80000000000000004" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="TQe-Nj-7yL" firstAttribute="centerX" secondItem="Egb-wN-QNQ" secondAttribute="centerX" id="2vP-nI-qNr"/>
                                     <constraint firstItem="rgh-MF-RSX" firstAttribute="top" secondItem="TQe-Nj-7yL" secondAttribute="bottom" constant="5" id="38v-sX-uSe"/>
@@ -83,14 +88,18 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="eJS-bR-8kW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2M0-XG-jaM"/>
+                            <constraint firstItem="eJS-bR-8kW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="2ZB-tC-Pvr"/>
                             <constraint firstAttribute="trailing" secondItem="Egb-wN-QNQ" secondAttribute="trailing" id="IWZ-FC-gQo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eJS-bR-8kW" secondAttribute="bottom" id="PxL-9a-yby"/>
                             <constraint firstItem="Egb-wN-QNQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dlT-Or-aec"/>
+                            <constraint firstAttribute="trailing" secondItem="eJS-bR-8kW" secondAttribute="trailing" id="s49-EM-dba"/>
                             <constraint firstItem="Egb-wN-QNQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wKh-Ke-cga"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Egb-wN-QNQ" secondAttribute="bottom" id="xoZ-E7-QE1"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="videoView" destination="Egb-wN-QNQ" id="ZyZ-Nk-d9Z"/>
+                        <outlet property="videoView" destination="eJS-bR-8kW" id="Lmn-op-YUx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

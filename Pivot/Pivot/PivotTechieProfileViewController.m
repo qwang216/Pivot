@@ -19,7 +19,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *professionLabel;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic) Event *timeLineEvent;
-//@property (nonatomic) NSArray *totalEvent;
 
 @end
 
@@ -27,6 +26,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UINib *nibLeft = [UINib nibWithNibName:@"TimelineLeftTableViewCell" bundle:nil];
+    [self.tableView registerNib:nibLeft forCellReuseIdentifier:@"TimeLineLeftTVCID"];
+    
+    UINib *nibRight = [UINib nibWithNibName:@"TimelineRightTableViewCell" bundle:nil];
+    [self.tableView registerNib:nibRight forCellReuseIdentifier:@"TimeLineRightTVCID"];
     
     self.tableView.delegate = self;
     
@@ -34,34 +38,31 @@
     self.nameLabel.text = self.user.name;
     self.educationLabel.text = [NSString stringWithFormat:@"%@ - %@", self.user.education.school, self.user.education.degreeType];
     self.professionLabel.text = self.user.profession;
-//    self.totalEvent = self.user.events;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 #pragma mark - UITableViewDataSource 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    NSLog(@"%lu",(unsigned long)self.user.events.count);
     return self.user.events.count;
 }
 
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileTVCID" forIndexPath:indexPath];
-    return cell;
+    TimelineRightTableViewCell *rightCell = [tableView dequeueReusableCellWithIdentifier:@"TimeLineRightTVCID" forIndexPath:indexPath];
+    rightCell.yearLabel.text = self.user.events[indexPath.row].year;
+    rightCell.headlineLabel.text = self.user.events[indexPath.row].headline;
+    
+    TimelineLeftTableViewCell *leftCell = [tableView dequeueReusableCellWithIdentifier:@"TimeLineLeftTVCID" forIndexPath:indexPath];
+    leftCell.yearLabel.text = self.user.events[indexPath.row].year;
+    leftCell.headlineLabel.text = self.user.events[indexPath.row].headline;
+    if (indexPath.row % 2) {
+        return rightCell;
+    } else {
+        return leftCell;
+    }
 }
+
 
 @end

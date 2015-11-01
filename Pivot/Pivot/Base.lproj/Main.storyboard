@@ -284,7 +284,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3Z-xX-Iay" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1179" y="1174"/>
+            <point key="canvasLocation" x="1202" y="1009"/>
         </scene>
         <!--Profile-->
         <scene sceneID="u5k-Ta-CKx">
@@ -360,6 +360,9 @@
                                         <state key="normal" title="CONNECT +">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="connectButtonTapped:" destination="1WH-Bm-ica" eventType="touchUpInside" id="7O3-kU-3rU"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
@@ -444,7 +447,7 @@
                                             <segue destination="YYx-7j-nUN" kind="show" identifier="oddCellSegue" id="Xum-qu-wPv"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="122" id="9Hy-31-GnF" customClass="TimelineRightTableViewCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PivotProfileRightTVCID" rowHeight="122" id="9Hy-31-GnF" customClass="TimelineRightTableViewCell">
                                         <rect key="frame" x="0.0" y="150" width="600" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Hy-31-GnF" id="IWF-Y0-rXN">
@@ -800,26 +803,11 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zzw-aP-aNc">
-                                        <rect key="frame" x="145" y="84" width="125" height="30"/>
-                                        <animations/>
-                                        <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="125" id="La4-ga-B7E"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="13"/>
-                                        <color key="tintColor" red="0.37881146729999998" green="0.88614004629999998" blue="0.33100621499999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="CONNECT +">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" red="0.97629381609999999" green="0.97629381609999999" blue="0.97629381609999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Zzw-aP-aNc" firstAttribute="leading" secondItem="kNc-6F-d4f" secondAttribute="trailing" constant="10" id="1QP-kl-VTQ"/>
                                     <constraint firstItem="kNc-6F-d4f" firstAttribute="leading" secondItem="1aZ-Wj-lML" secondAttribute="leading" constant="10" id="2sx-CQ-8bx"/>
-                                    <constraint firstItem="Zzw-aP-aNc" firstAttribute="top" secondItem="0HI-Je-gUK" secondAttribute="bottom" constant="5" id="4dB-B9-hqz"/>
                                     <constraint firstAttribute="height" constant="150" id="9eb-lE-nLg"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1150" id="C2J-Hn-rAn"/>
                                     <constraint firstItem="PdD-Ez-1zp" firstAttribute="centerY" secondItem="1aZ-Wj-lML" secondAttribute="centerY" constant="-28.5" id="EIq-YK-1Uk"/>

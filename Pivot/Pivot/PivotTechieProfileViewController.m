@@ -91,4 +91,17 @@
     profileDetailVC.event = self.user.events[indexPath.row];
     
 }
+- (IBAction)connectButtonTapped:(UIButton *)sender {
+    
+    UITabBarController *tb = [self.storyboard instantiateViewControllerWithIdentifier:@"tabController"];
+    
+    [tb setSelectedIndex:1];
+    
+    [self presentViewController:tb animated:YES completion:nil];
+    
+    
+    
+}
+
+
 @end

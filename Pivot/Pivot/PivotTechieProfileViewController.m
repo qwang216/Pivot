@@ -19,7 +19,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *professionLabel;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic) Event *timeLineEvent;
-//@property (nonatomic) NSArray *totalEvent;
 
 @end
 

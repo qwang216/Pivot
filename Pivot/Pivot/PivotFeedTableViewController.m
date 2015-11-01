@@ -62,6 +62,7 @@
     User *currentUser = self.tableViewData.users[indexPath.row];
     
     cell.pivotImageView.image = currentUser.picture;
+    cell.pivotImageView.clipsToBounds = YES;
     cell.jobLabel.text = [NSString stringWithFormat:@"%@, %@", currentUser.name, currentUser.profession];
     
     

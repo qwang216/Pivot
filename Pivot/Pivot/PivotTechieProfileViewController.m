@@ -31,6 +31,8 @@
     self.tableView.dataSource = self;
     
     self.profileImageView.image = self.user.picture;
+    self.profileImageView.layer.cornerRadius = 62.5;
+    self.profileImageView.layer.masksToBounds = YES;
     self.nameLabel.text = self.user.name;
     if (self.user.education.school == nil) {
         self.educationLabel.text = @"Institution: N/A";

@@ -210,10 +210,10 @@
             </objects>
             <point key="canvasLocation" x="973" y="274"/>
         </scene>
-        <!--Resources View Controller-->
+        <!--Messages View Controller-->
         <scene sceneID="Iba-bL-QgD">
             <objects>
-                <viewController id="E2Q-gP-uPN" customClass="ResourcesViewController" sceneMemberID="viewController">
+                <viewController id="E2Q-gP-uPN" customClass="MessagesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x0x-NY-Xl2"/>
                         <viewControllerLayoutGuide type="bottom" id="O38-L0-ahU"/>
@@ -222,20 +222,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAE-yj-5oU">
-                                <rect key="frame" x="20" y="91" width="81" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60B-tw-FCa">
+                                <rect key="frame" x="20" y="181" width="42" height="20.5"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUU-Oo-9tc">
+                                <rect key="frame" x="538" y="117" width="41.5" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Ze7-RW-tcw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvV-SP-5bS">
+                                <rect key="frame" x="500" y="498" width="80" height="33"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.80000000000000004" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="vd3-Qp-275"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="SEND">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendButtonTapped:" destination="E2Q-gP-uPN" eventType="touchUpInside" id="eUT-Vl-wLo"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter message here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a3q-dm-DpI">
+                                <rect key="frame" x="20" y="501" width="467" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IUU-Oo-9tc" firstAttribute="trailing" secondItem="AkS-eJ-3Sx" secondAttribute="trailingMargin" id="03l-vx-XlJ"/>
+                            <constraint firstItem="a3q-dm-DpI" firstAttribute="leading" secondItem="AkS-eJ-3Sx" secondAttribute="leading" constant="20" id="1Nw-cg-Boz"/>
+                            <constraint firstItem="uvV-SP-5bS" firstAttribute="leading" secondItem="a3q-dm-DpI" secondAttribute="trailing" constant="20" id="8EV-qg-WYX"/>
+                            <constraint firstItem="60B-tw-FCa" firstAttribute="leading" secondItem="AkS-eJ-3Sx" secondAttribute="leadingMargin" id="9Ts-8c-bX1"/>
+                            <constraint firstItem="60B-tw-FCa" firstAttribute="top" secondItem="x0x-NY-Xl2" secondAttribute="bottom" constant="117" id="GhP-Pv-b3N"/>
+                            <constraint firstItem="O38-L0-ahU" firstAttribute="top" secondItem="a3q-dm-DpI" secondAttribute="bottom" constant="20" id="N9D-Gd-iGh"/>
+                            <constraint firstItem="IUU-Oo-9tc" firstAttribute="top" secondItem="x0x-NY-Xl2" secondAttribute="bottom" constant="53" id="QAt-MS-xT6"/>
+                            <constraint firstItem="O38-L0-ahU" firstAttribute="top" secondItem="uvV-SP-5bS" secondAttribute="bottom" constant="20" id="SLD-Uh-IQH"/>
+                            <constraint firstItem="uvV-SP-5bS" firstAttribute="trailing" secondItem="AkS-eJ-3Sx" secondAttribute="trailingMargin" id="XVK-No-Ro1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="guQ-tu-Kfu"/>
                     <connections>
-                        <outlet property="resourcesLabel" destination="TAE-yj-5oU" id="uZr-Ed-L8p"/>
+                        <outlet property="messageTextField" destination="a3q-dm-DpI" id="KBK-cW-fBz"/>
+                        <outlet property="receiverLabel" destination="60B-tw-FCa" id="ITg-0r-gXb"/>
+                        <outlet property="senderLabel" destination="IUU-Oo-9tc" id="q6H-Kt-ylD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3Z-xX-Iay" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1113,7 +1157,7 @@
         <scene sceneID="IZa-Y0-Pqk">
             <objects>
                 <navigationController title="Resources" automaticallyAdjustsScrollViewInsets="NO" id="Xcr-rg-2ke" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Resources" image="Message-50" id="dE7-wj-Ael"/>
+                    <tabBarItem key="tabBarItem" title="Messages" image="Message-50" id="dE7-wj-Ael"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aO2-qk-sk3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

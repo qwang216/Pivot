@@ -7,205 +7,240 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06EF5519D07BD7F959DE1A6DFBACCA3A /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3619E6505E6649262BB579B69D70 /* UINavigationController+Chameleon.m */; };
-		09CA58C5A5C240229FF506F37E291940 /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE1148A18F7730F911C9702E91272F2 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CFDFE0B9937328331EB8ED9B0011DE3 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = AA47178E3B22535223581ACC0C663346 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1246715657F5BFD18AD3E8C6D336FED9 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F2C96E697903EC48A9B4A8BAA402B3 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27A8F97BE4233B64F6A24CF467C578C7 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0C7B9EE3ED8E92E360810C421655DA /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		305BAA2F847384912DD2823B2D251123 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7AEB38710C65E1014C79B44BEC26A6 /* CoreGraphics.framework */; };
-		33B113A7B499E8D3DB73BD94A7C4B80D /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = BD449EF27F7342F6FAB98F426E31EFC4 /* Chameleon_.m */; };
-		36E6E8E475E566C4B2EB9091794BC9DF /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED76248024EF5D5DFD8BA603E83E9BEB /* UIView+ChameleonPrivate.m */; };
-		3DA27DA4A16E88C454636C2F2BE05B9F /* CROCOVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB763D6009F63A3A568DE1F7AA733EE /* CROCOVideoBackground-dummy.m */; };
-		448F3A025DE1AD9E69F273745DADDAEF /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E7147D31C736E032F1734BC972C7E8 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		465FC59791792491289E08316CD97E64 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E53554960A64DEEA51B519129A9BE8 /* ChameleonFramework-dummy.m */; };
-		4FB44504EAB0139617D34265A08CD716 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0418DEEF0690473F300F890C9D14382F /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56EB4A38FE0DF08D15237E64E6FEAC8A /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 20029ADBC9CBAB52A6D6B1C7D3F2A07C /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ED83782E9003CED5E9A8B17D39DDACC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A436D93F9ED199915FCF0FF1AD93EF /* QuartzCore.framework */; };
-		5F801D2C8C2766020955FC1354CF04A4 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF8E72207B71DE537C9F73B930E775 /* UIColor+Chameleon.m */; };
-		6793797D118EE9FCD1CB2457A943A73B /* CROCOVideoBackground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C78DB24F223DFA76A04A5B8CBE09341 /* CROCOVideoBackground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69FD9F444B09000A3E90F7883BDCE9BE /* CROCOVideoBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F7C8EF8B1AFD1A6A256EE9264226B6 /* CROCOVideoBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72771DD5E4DADF358747A3F443BEAA8B /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2DDCF9385BF0146EDCB416A8FDE537 /* UILabel+Chameleon.m */; };
-		74259E9432BA46DC6AE6EC9CC8479FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1554599631C725C282139A9CE0830E56 /* Foundation.framework */; };
-		7D18CE3D78BE1EB38606433102FED3FA /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B34E99D2761E4D95DA1D66A93E3C732D /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83361243F81A42631ED98717DBD4501D /* CROCOVideoBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7BA4FF769BFCA7A25D7471A4E06F94 /* CROCOVideoBackground.m */; };
-		85D4A0A5F39BAEB8E610DD900298C8B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505A50CFEA68E0309922FDDC3B690D77 /* UIKit.framework */; };
-		88364FB5F0250470236BDCF2B3ECAAD5 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDB5F6906EC0E64B2F68BB5E9C4494B /* NSArray+Chameleon.m */; };
-		8B01DE3A2CB6481FB588D842AA3E9A78 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A1758CCC08A5E8280DDA8229E283C2 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9663CAE321F9B976EB4DEA0010022465 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB6767B4C4B6FA7F2E7D5C446582C44 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98B0B551018772CE920C60CDBF4B5649 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C65F111B8B7BEF402B3559E91537ABB /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8E89759C67F7E6F246CC8FE79362138 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC683D0A483FFB46F0B92823D36376 /* ChameleonConstants.m */; };
-		AB8C797456E475E814C44103CFD9AAA6 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2818E2B200EFB44DB01AAAA1A0B8C8 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0647EA0BE8BAF817E43F26A9EE8B595 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA7578148AD36495E9027ED06FEA378 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B22F1C0486191E6414C1BE49C2AA1A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1554599631C725C282139A9CE0830E56 /* Foundation.framework */; };
-		B6A67BF88F780C1F8294C627CADDB063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1554599631C725C282139A9CE0830E56 /* Foundation.framework */; };
-		B76BE507D14AAF7B59CC5D25A04D679C /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633DF06F2BCE878C0D0783120243A6C6 /* UIColor+ChameleonPrivate.m */; };
-		BEA99172B40D843AFC722F334F7453B5 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F830CC26093399BE4E7874425D51EB4 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7EFFD2DF3EC60A001EDD82826CF33FD /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = D03970DB42B837AD3C53055CCA64861E /* UIViewController+Chameleon.m */; };
-		CD80541CD041B7FA27CCF9B8344A03AC /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = B62B8705C18DE1183012764B3EFCB20F /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D15792F7BE975C23EE1A04A5DA5E1B70 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = B13287EE036DC4B8E8B9B302BC58D369 /* UIButton+Chameleon.m */; };
-		D3A0DA8D51AD3D847C426A0C7EE52769 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8646F49D0AB4EDCCAEAF3E581D113A8E /* UIImage+ChameleonPrivate.m */; };
-		D8AABBA89235086FBC15563BE57A6F9D /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1B369B0CBD6E2BB039C36516C3FF8B /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA2C6C586686514FB862586272DE0092 /* CROCOVideoBackground.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F684CC7A5AC36CA8F1E2749A59C2A /* CROCOVideoBackground.bundle */; };
-		EEA23E3DB48B10084D7762433FD76492 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7910CE1A508D547563524A03378F08 /* Pods-dummy.m */; };
+		0428005F247F87A355B6B80F94145D7E /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 75675A661C640248D7B4394A1A0213CE /* IQBarButtonItem.h */; };
+		055915872C0BD09B14ADA364BF102BFE /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B6606C0E07E1021264DC2B805AB8D /* IQUIViewController+Additions.h */; };
+		06C096615EE4D3FB2B53381A8EE21C8E /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 95C5CAD562011C3817D8BF51B7408318 /* ChameleonConstants.h */; };
+		0797A1C802091256AD4306199B96E567 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8CFE91809AB1A560164D56EB25AE33 /* UIButton+Chameleon.h */; };
+		0919F8089CE5A55D971CCF9B4F30DEA0 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C621B2CCC32FBD56CEF1BB41DFBD2A05 /* ChameleonConstants.m */; };
+		096719D6C14B442E14EC045C4401F495 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A96931A9B16137EBB1AD82F9FBBC273 /* IQKeyboardManager.h */; };
+		0C5AA858742255735BA1C52572037480 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E50597BA6F43D18E59BAC07EB2C8396 /* IQUIView+Hierarchy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0D9B72BFE699BB3EEED4CEF566CE4802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C116E9875C80FFFFA65B149FCDB5758E /* Foundation.framework */; };
+		10F67377888EA1E1207960646080A93D /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBFE64AE6FD8E19474DD96839BB8128 /* IQToolbar.h */; };
+		10FF43C748B194676B10D410C29BA13A /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = DD537F6FA3542A0B666893F9A3D128EE /* NSArray+Chameleon.h */; };
+		16E4CBE0CA98330E4D18AC0A6B7D38AB /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDBCE3300E0A3E0CDF8335CECB1D088 /* UIImage+ChameleonPrivate.h */; };
+		219F3E165AB739D43D9DDC0C2985C353 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = D37549E41DCB92DB28DC1E5AFDC7231E /* UINavigationController+Chameleon.h */; };
+		2A7D84CC9703CAD0397F59DBC4712DBE /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BC22764F9E109992955AB01CB41B9E /* UIColor+ChameleonPrivate.m */; };
+		31844C3406FE6D2C3BA8578C93F14114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C116E9875C80FFFFA65B149FCDB5758E /* Foundation.framework */; };
+		339CFEFC2606E31DFD624E79D0BE6D1E /* CROCOVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 055B248013F01EEC45BDC9221458F6AE /* CROCOVideoBackground-dummy.m */; };
+		3CCA09B87B53A7E119B07E67221A92E4 /* CROCOVideoBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 90793F83CBC5CC98B77B574AA0E261E8 /* CROCOVideoBackground.m */; };
+		3E4EF53FB0E5E4724824E121C716234A /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FD08AC0170ADDFB4FAA6151A41A6E6 /* IQTextView.h */; };
+		40B206A77AACB1B3B9789B1D78342A92 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F81F0EEBF6C1EBA0C76441FFC664BC2 /* IQKeyboardManagerConstantsInternal.h */; };
+		4675D6DD2E0BE65D87C39C1ADF19B04F /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 9677A50DF031EA32917A78BF9BCA38A5 /* ChameleonEnums.h */; };
+		4931455BCE58C833A20E81A5A39CEA6E /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 27525BBFB385444F174050F8776246AE /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4AFBCFC262BB45A78958CC2C311E4495 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = F04D86B6FDB28BD8D081551610282527 /* IQNSArray+Sort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4B35781468F1470617E27F469D4F9B59 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46618207583B5BEEE5224E3791F4CEF /* IQKeyboardManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4D4AB08B28FC5C28B51DA01A646D4F31 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD8D28209B0AF67BA940C3054F693C5 /* IQUIWindow+Hierarchy.h */; };
+		5595F2BEF259CF6C57DC76E9834018E5 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C4BCA8999DAA7BCEA7559A803058A8 /* IQUIView+IQKeyboardToolbar.h */; };
+		59B96CCFB8556BEE043D8657150D9970 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E750D5802C3273E982FA65A81E6720E /* UILabel+Chameleon.m */; };
+		6164AE66C237E625C76A93D5AA9E8D7E /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 81567FCD0436EB427DB9B38E68924E72 /* IQUIViewController+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		654A998D64DDF6C13466A262784E2761 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = BABC442CB6112E7D2E22B68FB65545FE /* IQNSArray+Sort.h */; };
+		6651E2F0548ACEDD956C3FAEE0E015C8 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDE5FA8682A182A90B513C45A1548E8 /* NSArray+Chameleon.m */; };
+		66ED7DB92C84CB1DE5B5C3A0946E723C /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC386394298D4C9F8CC598F184ADC18 /* IQKeyboardManager-dummy.m */; };
+		6716BB25ECBE2BF5079CA6F427E3F237 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = D837B88B5E81B4E141F31DA85199BA41 /* UIColor+Chameleon.h */; };
+		67BAB6218C273477143A135DA37A6391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0DFFEC6ED8FBA4A482EAADB1D4851C /* UIKit.framework */; };
+		6A7EB6146D72D123CED2F42B6F385E28 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 158E82588E92C3943E54934216A29686 /* IQUIWindow+Hierarchy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6FCE326C5CFA0174DD06F6FCE7AFEC47 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = D055FCDED8C8FF06A197588B171FD696 /* UIImage+ChameleonPrivate.m */; };
+		71F675931A6C7830F32EEDC89B16BDA2 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9D1CF4C6255D783AB8303BAA8EDE4C /* IQKeyboardManagerConstants.h */; };
+		7408770FC88E8F136BC3A6004639AB0A /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4E928235120991E1EFB7B3D1DFDFF9 /* IQSegmentedNextPrevious.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75B97227C998651E6ECCDFCDFBBD6305 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C7189B026B258D07BCFC94F2DA8C5C /* Pods-dummy.m */; };
+		7922A47738FC21EEA6F73D0BEFC8B59B /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B51223FA63186B69DE0DB18B3DDAB1 /* UILabel+Chameleon.h */; };
+		7E798E02D173FB58205F1582B3E515A3 /* IQSegmentedNextPrevious.h in Headers */ = {isa = PBXBuildFile; fileRef = 473ECB386C9B757CE6A3C3D241275790 /* IQSegmentedNextPrevious.h */; };
+		80F3AC75F17C099BB7F5BB5040C941CD /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B2C8D203815ADFF0A7F2CE7EFA4AE /* IQUITextFieldView+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		82ABB8225BA61DD3953427638BE826E5 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5C4F51DC77CAD6B4A25B3ABF9EA3B3 /* UIColor+ChameleonPrivate.h */; };
+		84BE9216810288D6E660FBA56482B259 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E060C9C57D34CFA726798149D48EDC /* ChameleonMacros.h */; };
+		88E84BD12B69F591A0B5B4D347F58923 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = ED83A38896874C8025E705FB13E49FE0 /* Chameleon_.m */; };
+		904FBFD0C416B7C27402AB3B8F87CD6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C116E9875C80FFFFA65B149FCDB5758E /* Foundation.framework */; };
+		986C4AF9BB8EDF315B2E5FB09714241D /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B90189411058B07D1A5C97848A79374 /* UIViewController+Chameleon.h */; };
+		9A5694A8F47A705917CD387E7AB668E8 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD367EA2210228F63701547C20353FE /* UIButton+Chameleon.m */; };
+		9C03B92D9AE923DA39525C8C041EED9A /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = C337B16172A034622402116DA9872B22 /* UINavigationController+Chameleon.m */; };
+		A44EAFEC82C7CDC0135BFDF4CD99CCC4 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA74BF375FF94AC8C2005927467E7E9 /* IQTitleBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4893B9701F8EFCB9F5D2643EF5E4722 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CF102671ADDCED47BC8C7DFB66DBA /* UIView+ChameleonPrivate.m */; };
+		A618296D760F1036B77489BF46AEED3C /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D10EF09AA9BADAADDF66685AF2C88 /* IQUIView+IQKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A864A6761740731283BE61B485F4E557 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A49202E3D75B13FDE4887226984A2FA /* IQUITextFieldView+Additions.h */; };
+		A890A90567E41EB539BA89B2C9C493AB /* KeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3070C96295B013407E3C1435C267955E /* KeyboardManager.h */; };
+		ACA6CF06B8C0682CACDAC43390E6F2B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD3F14AE0AB827FD657A1A6FC461FD /* CoreGraphics.framework */; };
+		B0DCC65C7FFE862C53DDA49173836F7F /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E62B016F2BFEA1823523944179C7F0 /* UIView+ChameleonPrivate.h */; };
+		B1D54CFD5E81E8E7C1F52C459B039E9F /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 927C81CAE37B9C3578CB1AF1155EDDB8 /* IQTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1CE052DA0C1D3D70C14EE981A56CAB9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD11F5D59DE5BF80057FEF68C3543CB5 /* QuartzCore.framework */; };
+		C372B8F7D6C0E37EF9967E0A5B474527 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D3827E1EAABC71EB721CBF135E8F024C /* IQKeyboardReturnKeyHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D3F65FDADC993B5783EC2CF883C141FB /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FEDCF7A227DA8A052A049954C5F594 /* Chameleon_.h */; };
+		D609235984F95E5325D0D0932EE75DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C116E9875C80FFFFA65B149FCDB5758E /* Foundation.framework */; };
+		D611006D0C0437A5BCD7D79BC45B5C48 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D031CEFEA0F5863CAA8577451CC44A3 /* UIViewController+Chameleon.m */; };
+		D685B0C97B12657C1F41AB2D20E084AE /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3F50855EDB6652C15ABAE0DD5B527D /* Chameleon.h */; };
+		E1CF66614F5CC7DE1E586F0BDE80EC83 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = E715747342341CBCF411465B0E0B244C /* IQUIView+Hierarchy.h */; };
+		E83126BFFB5C8A9B5C6F01A01121B7A9 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = FC52E5D544ECF1ADF67F919F011F1D10 /* UIColor+Chameleon.m */; };
+		E9E7BD4C3D7C030FB1B4D46311121F63 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 24612AC0EC596C9A1A39EDABD60D98D4 /* IQToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EA694807D408BD40A965F3D899E3490D /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7358F1BBFA358631EADB73543A14B8 /* ChameleonFramework-dummy.m */; };
+		ECA0A81D4C0B57302DBC0FFCE896C445 /* CROCOVideoBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BD59ACB539D47AD4059E159C527396 /* CROCOVideoBackground.h */; };
+		FB901E2257B715AB050BF822B5F2F03D /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A585276730C62AF85A3A34590558A857 /* IQTitleBarButtonItem.h */; };
+		FD274C44825A20918F74A14E42F25F3A /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F79A386A4E106BE731C5094CE8A6C9 /* IQKeyboardReturnKeyHandler.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A1D79E15610AACF8C553C50D9898375 /* PBXContainerItemProxy */ = {
+		36100743708C5B111B6D22B602A8F5DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 677261BF159D942AEFF9D24AF35B1473;
-			remoteInfo = CROCOVideoBackground;
-		};
-		92F44867F8848F08282C72DF02EAFCEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFF31529F4411C5A8F7AEC6955E77933;
+			remoteGlobalIDString = E941581210279080FAAFAAD34EE5CEE2;
 			remoteInfo = "CROCOVideoBackground-CROCOVideoBackground";
 		};
-		BFD62B55D3AC33BF4D7361C00101E386 /* PBXContainerItemProxy */ = {
+		6CD5E702CEA874B6F0B0963E02F47568 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0893EAC245F1003092C4918B2FC764F8;
+			remoteGlobalIDString = 7C9BC1BBD89F6FA1A83A0D2E2F4BD5B2;
+			remoteInfo = IQKeyboardManager;
+		};
+		A9B02B6A40D66C4E2F35C56DA753EAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A8ABF8BED25CCC7170FDF47A3B8B4A;
 			remoteInfo = ChameleonFramework;
+		};
+		C5854F63F169F01F612BE0843D6F597C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D747CFA1C4B78F2790A2298EE0B7058;
+			remoteInfo = CROCOVideoBackground;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0276CBB119BADB2E0E6516DC93E939FE /* CROCOVideoBackground-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CROCOVideoBackground-Private.xcconfig"; sourceTree = "<group>"; };
-		0418DEEF0690473F300F890C9D14382F /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
-		0C78DB24F223DFA76A04A5B8CBE09341 /* CROCOVideoBackground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CROCOVideoBackground-umbrella.h"; sourceTree = "<group>"; };
-		0F830CC26093399BE4E7874425D51EB4 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
-		12A436D93F9ED199915FCF0FF1AD93EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		1554599631C725C282139A9CE0830E56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1734625D3EE28A4BBFC97B0C0D6469E0 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
-		1E51BF8B73D784F949FAF09E12DD5313 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		20029ADBC9CBAB52A6D6B1C7D3F2A07C /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
-		24CF8E72207B71DE537C9F73B930E775 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
-		25A1758CCC08A5E8280DDA8229E283C2 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
-		294A323D94974DF524F10B0328CC0BB7 /* CROCOVideoBackground.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CROCOVideoBackground.xcconfig; sourceTree = "<group>"; };
-		2C65F111B8B7BEF402B3559E91537ABB /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		2DA31F739EA086CF52719807E36FBBBC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		35216CACC263F6E118D172287AD6C936 /* CROCOVideoBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CROCOVideoBackground-prefix.pch"; sourceTree = "<group>"; };
-		45F7C8EF8B1AFD1A6A256EE9264226B6 /* CROCOVideoBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CROCOVideoBackground.h; path = Pod/Classes/CROCOVideoBackground.h; sourceTree = "<group>"; };
-		49EC683D0A483FFB46F0B92823D36376 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
-		4FE1148A18F7730F911C9702E91272F2 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
-		505A50CFEA68E0309922FDDC3B690D77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5E5F684CC7A5AC36CA8F1E2749A59C2A /* CROCOVideoBackground.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CROCOVideoBackground.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		633DF06F2BCE878C0D0783120243A6C6 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		6DB6767B4C4B6FA7F2E7D5C446582C44 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		6EFFAC466E7D97D3FBD2A2C44629505D /* ChameleonFramework-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ChameleonFramework-Private.xcconfig"; sourceTree = "<group>"; };
-		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		7A1B369B0CBD6E2BB039C36516C3FF8B /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
-		7AE35E769F148D5E0537A384C96CB55F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		814428313D6BB26BBFD5F006E9FA36CF /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
-		8646F49D0AB4EDCCAEAF3E581D113A8E /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		8EE1BE86690846562D1534FC582272BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B7AEB38710C65E1014C79B44BEC26A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		AA47178E3B22535223581ACC0C663346 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
-		AB0D5F0E113CA3123F3890C23C84C31E /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B13287EE036DC4B8E8B9B302BC58D369 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
-		B34E99D2761E4D95DA1D66A93E3C732D /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
-		B62B8705C18DE1183012764B3EFCB20F /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		027982B6AF64A0B6655F88AF8F5A87A0 /* CROCOVideoBackground-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CROCOVideoBackground-Private.xcconfig"; sourceTree = "<group>"; };
+		055B248013F01EEC45BDC9221458F6AE /* CROCOVideoBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CROCOVideoBackground-dummy.m"; sourceTree = "<group>"; };
+		081B2C8D203815ADFF0A7F2CE7EFA4AE /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyBoardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		0C3F50855EDB6652C15ABAE0DD5B527D /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		0E50597BA6F43D18E59BAC07EB2C8396 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyBoardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		158E82588E92C3943E54934216A29686 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F7358F1BBFA358631EADB73543A14B8 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		1F81F0EEBF6C1EBA0C76441FFC664BC2 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyBoardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		24612AC0EC596C9A1A39EDABD60D98D4 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyBoardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		27525BBFB385444F174050F8776246AE /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyBoardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		2A96931A9B16137EBB1AD82F9FBBC273 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyBoardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		2DDBCE3300E0A3E0CDF8335CECB1D088 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		2FD436CD829BF618DE00CDF27AE68DA2 /* IQKeyboardManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IQKeyboardManager-Private.xcconfig"; sourceTree = "<group>"; };
+		3070C96295B013407E3C1435C267955E /* KeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyboardManager.h; path = IQKeyBoardManager/KeyboardManager.h; sourceTree = "<group>"; };
+		39B51223FA63186B69DE0DB18B3DDAB1 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		3A49202E3D75B13FDE4887226984A2FA /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyBoardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		41A22981A5862E96E890E6AD4B741342 /* CROCOVideoBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CROCOVideoBackground-prefix.pch"; sourceTree = "<group>"; };
+		43F79A386A4E106BE731C5094CE8A6C9 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyBoardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		448D10EF09AA9BADAADDF66685AF2C88 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		473ECB386C9B757CE6A3C3D241275790 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQSegmentedNextPrevious.h; path = IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		5A3BDCFA9D4D9DE50272AB5E1372D71E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5D6286EA3530FD3A73602668C4B84B99 /* libChameleonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChameleonFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BC22764F9E109992955AB01CB41B9E /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		673D64864B71F2F852A06E2F638B34B9 /* CROCOVideoBackground.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CROCOVideoBackground.xcconfig; sourceTree = "<group>"; };
+		6E5CF102671ADDCED47BC8C7DFB66DBA /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		75675A661C640248D7B4394A1A0213CE /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyBoardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		79E060C9C57D34CFA726798149D48EDC /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		7AE44BE7183FA5104ADEC3C66D24476A /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		7B90189411058B07D1A5C97848A79374 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		81567FCD0436EB427DB9B38E68924E72 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyBoardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		841B6606C0E07E1021264DC2B805AB8D /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyBoardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		87C7189B026B258D07BCFC94F2DA8C5C /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		899D1F216B53536B9BD65D2FF2ACB1B8 /* libCROCOVideoBackground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCROCOVideoBackground.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D031CEFEA0F5863CAA8577451CC44A3 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		8E750D5802C3273E982FA65A81E6720E /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		8FBFE64AE6FD8E19474DD96839BB8128 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyBoardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		8FFC859640556A25B2EBACE869A5FC8A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90793F83CBC5CC98B77B574AA0E261E8 /* CROCOVideoBackground.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CROCOVideoBackground.m; path = Pod/Classes/CROCOVideoBackground.m; sourceTree = "<group>"; };
+		927C81CAE37B9C3578CB1AF1155EDDB8 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyBoardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		95C5CAD562011C3817D8BF51B7408318 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		9677A50DF031EA32917A78BF9BCA38A5 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		97BD59ACB539D47AD4059E159C527396 /* CROCOVideoBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CROCOVideoBackground.h; path = Pod/Classes/CROCOVideoBackground.h; sourceTree = "<group>"; };
+		9EC5C05E571C519FA8832B3FC93DC7B1 /* ChameleonFramework-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ChameleonFramework-Private.xcconfig"; sourceTree = "<group>"; };
+		A585276730C62AF85A3A34590558A857 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		A8B8E4CE0B046420FE3344C7F4CCE299 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C4F51DC77CAD6B4A25B3ABF9EA3B3 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		ABD367EA2210228F63701547C20353FE /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		ACA53625E9681A7B6D92B4E524A40BC7 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		AD11F5D59DE5BF80057FEF68C3543CB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B0E62B016F2BFEA1823523944179C7F0 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		B2BF9FB41C04C76F1C346E74B66857CA /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyBoardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA7910CE1A508D547563524A03378F08 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		BD449EF27F7342F6FAB98F426E31EFC4 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
-		CA0C7B9EE3ED8E92E360810C421655DA /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
-		CA2818E2B200EFB44DB01AAAA1A0B8C8 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
-		CA2AA7D27EACD8B9B7E6B05766F5A937 /* CROCOVideoBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CROCOVideoBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		CFA7578148AD36495E9027ED06FEA378 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		D03970DB42B837AD3C53055CCA64861E /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
-		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DCDB5F6906EC0E64B2F68BB5E9C4494B /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
-		DE2DDCF9385BF0146EDCB416A8FDE537 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
-		DF7BA4FF769BFCA7A25D7471A4E06F94 /* CROCOVideoBackground.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CROCOVideoBackground.m; path = Pod/Classes/CROCOVideoBackground.m; sourceTree = "<group>"; };
-		E1C98DC081D762A415D69B3011A4BA3D /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
-		E1E53554960A64DEEA51B519129A9BE8 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
-		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		E7F2C96E697903EC48A9B4A8BAA402B3 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
-		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB053640DA4C4788F9AD4A3CC4409E42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED76248024EF5D5DFD8BA603E83E9BEB /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		F0E7147D31C736E032F1734BC972C7E8 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		F66605116C6D66DD42E53124E28EA430 /* CROCOVideoBackground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CROCOVideoBackground.modulemap; sourceTree = "<group>"; };
-		FCB763D6009F63A3A568DE1F7AA733EE /* CROCOVideoBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CROCOVideoBackground-dummy.m"; sourceTree = "<group>"; };
-		FF5D3619E6505E6649262BB579B69D70 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		BABC442CB6112E7D2E22B68FB65545FE /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyBoardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		BBDE5FA8682A182A90B513C45A1548E8 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		BC4E928235120991E1EFB7B3D1DFDFF9 /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQSegmentedNextPrevious.m; path = IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		BC9D1CF4C6255D783AB8303BAA8EDE4C /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyBoardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		BCD8D28209B0AF67BA940C3054F693C5 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		BEFF6AD6332C11DE1D5B4BEAC32669F2 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF7A82D5914BC6FBAB2DC38B4DD0E81A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		C0C4BCA8999DAA7BCEA7559A803058A8 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		C116E9875C80FFFFA65B149FCDB5758E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1FD08AC0170ADDFB4FAA6151A41A6E6 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyBoardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		C337B16172A034622402116DA9872B22 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		C46618207583B5BEEE5224E3791F4CEF /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyBoardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		C621B2CCC32FBD56CEF1BB41DFBD2A05 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		C9BD3F14AE0AB827FD657A1A6FC461FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		CEC386394298D4C9F8CC598F184ADC18 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		D055FCDED8C8FF06A197588B171FD696 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		D37549E41DCB92DB28DC1E5AFDC7231E /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		D3827E1EAABC71EB721CBF135E8F024C /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyBoardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		D837B88B5E81B4E141F31DA85199BA41 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		DA07D8FD58E64F0ADF9F3EDE9027EF21 /* CROCOVideoBackground.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CROCOVideoBackground.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0DFFEC6ED8FBA4A482EAADB1D4851C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DB7EA5F64C4E0000F4FDFA00AC9D8EE4 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		DD537F6FA3542A0B666893F9A3D128EE /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		DEA74BF375FF94AC8C2005927467E7E9 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		E3FEDCF7A227DA8A052A049954C5F594 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		E715747342341CBCF411465B0E0B244C /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyBoardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		EA8CFE91809AB1A560164D56EB25AE33 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		ED83A38896874C8025E705FB13E49FE0 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		F04D86B6FDB28BD8D081551610282527 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyBoardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		FC52E5D544ECF1ADF67F919F011F1D10 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1838FB7F361A92B1E3522481A353DF3F /* Frameworks */ = {
+		2632E883C5FB88F75393A1343C62CF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31844C3406FE6D2C3BA8578C93F14114 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5260951E6A6E89CBE6D69FF33E772E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D609235984F95E5325D0D0932EE75DAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F2B38FCA1D16EA1834695C19B47DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9B72BFE699BB3EEED4CEF566CE4802 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15D4E5091851C9F18ACB523D7FF9CA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3674C6D9C603C5118995C8CDFA0C9B2F /* Frameworks */ = {
+		E79DD14B306B37D019A50F994674E585 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74259E9432BA46DC6AE6EC9CC8479FCD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA12EDD193C390AE907C99742FA2BF1C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				305BAA2F847384912DD2823B2D251123 /* CoreGraphics.framework in Frameworks */,
-				B6A67BF88F780C1F8294C627CADDB063 /* Foundation.framework in Frameworks */,
-				5ED83782E9003CED5E9A8B17D39DDACC /* QuartzCore.framework in Frameworks */,
-				85D4A0A5F39BAEB8E610DD900298C8B0 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB503D447DCDD71FBCCC16D0425B9B1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B22F1C0486191E6414C1BE49C2AA1A52 /* Foundation.framework in Frameworks */,
+				ACA6CF06B8C0682CACDAC43390E6F2B8 /* CoreGraphics.framework in Frameworks */,
+				904FBFD0C416B7C27402AB3B8F87CD6A /* Foundation.framework in Frameworks */,
+				C1CE052DA0C1D3D70C14EE981A56CAB9 /* QuartzCore.framework in Frameworks */,
+				67BAB6218C273477143A135DA37A6391 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		097BC186695224DE96E9C03878F6A8F8 /* Default */ = {
-			isa = PBXGroup;
-			children = (
-				25A1758CCC08A5E8280DDA8229E283C2 /* Chameleon.h */,
-				4FE1148A18F7730F911C9702E91272F2 /* ChameleonConstants.h */,
-				49EC683D0A483FFB46F0B92823D36376 /* ChameleonConstants.m */,
-				20029ADBC9CBAB52A6D6B1C7D3F2A07C /* ChameleonEnums.h */,
-				B34E99D2761E4D95DA1D66A93E3C732D /* ChameleonMacros.h */,
-				B62B8705C18DE1183012764B3EFCB20F /* Chameleon_.h */,
-				BD449EF27F7342F6FAB98F426E31EFC4 /* Chameleon_.m */,
-				CA0C7B9EE3ED8E92E360810C421655DA /* NSArray+Chameleon.h */,
-				DCDB5F6906EC0E64B2F68BB5E9C4494B /* NSArray+Chameleon.m */,
-				AA47178E3B22535223581ACC0C663346 /* UIButton+Chameleon.h */,
-				B13287EE036DC4B8E8B9B302BC58D369 /* UIButton+Chameleon.m */,
-				0F830CC26093399BE4E7874425D51EB4 /* UIColor+Chameleon.h */,
-				24CF8E72207B71DE537C9F73B930E775 /* UIColor+Chameleon.m */,
-				6DB6767B4C4B6FA7F2E7D5C446582C44 /* UIColor+ChameleonPrivate.h */,
-				633DF06F2BCE878C0D0783120243A6C6 /* UIColor+ChameleonPrivate.m */,
-				F0E7147D31C736E032F1734BC972C7E8 /* UIImage+ChameleonPrivate.h */,
-				8646F49D0AB4EDCCAEAF3E581D113A8E /* UIImage+ChameleonPrivate.m */,
-				0418DEEF0690473F300F890C9D14382F /* UILabel+Chameleon.h */,
-				DE2DDCF9385BF0146EDCB416A8FDE537 /* UILabel+Chameleon.m */,
-				CA2818E2B200EFB44DB01AAAA1A0B8C8 /* UINavigationController+Chameleon.h */,
-				FF5D3619E6505E6649262BB579B69D70 /* UINavigationController+Chameleon.m */,
-				CFA7578148AD36495E9027ED06FEA378 /* UIView+ChameleonPrivate.h */,
-				ED76248024EF5D5DFD8BA603E83E9BEB /* UIView+ChameleonPrivate.m */,
-				E7F2C96E697903EC48A9B4A8BAA402B3 /* UIViewController+Chameleon.h */,
-				D03970DB42B837AD3C53055CCA64861E /* UIViewController+Chameleon.m */,
-			);
-			name = Default;
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,25 +249,67 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1B7D7056717202463A0854436F23182D /* Pods */ = {
+		168761FD9FF43C774E3FA5C0C488377E /* CROCOVideoBackground */ = {
 			isa = PBXGroup;
 			children = (
-				91A8BE2DB26BA56B4A070AD6B26C10F4 /* CROCOVideoBackground */,
-				BEC586D0190DCA35A9EC43074C22B442 /* ChameleonFramework */,
+				97BD59ACB539D47AD4059E159C527396 /* CROCOVideoBackground.h */,
+				90793F83CBC5CC98B77B574AA0E261E8 /* CROCOVideoBackground.m */,
+				91D238FA286AD19E0FFD57B468EC4D83 /* Support Files */,
 			);
-			name = Pods;
+			path = CROCOVideoBackground;
 			sourceTree = "<group>";
 		};
-		3802BD16FC2277B749CBE1DF1D9D133B /* Support Files */ = {
+		16A4A2BB8067145414DFA1167D798D6C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E1C98DC081D762A415D69B3011A4BA3D /* ChameleonFramework.modulemap */,
-				814428313D6BB26BBFD5F006E9FA36CF /* ChameleonFramework.xcconfig */,
-				6EFFAC466E7D97D3FBD2A2C44629505D /* ChameleonFramework-Private.xcconfig */,
-				E1E53554960A64DEEA51B519129A9BE8 /* ChameleonFramework-dummy.m */,
-				1734625D3EE28A4BBFC97B0C0D6469E0 /* ChameleonFramework-prefix.pch */,
-				7A1B369B0CBD6E2BB039C36516C3FF8B /* ChameleonFramework-umbrella.h */,
-				EB053640DA4C4788F9AD4A3CC4409E42 /* Info.plist */,
+				7AE44BE7183FA5104ADEC3C66D24476A /* IQKeyboardManager.xcconfig */,
+				2FD436CD829BF618DE00CDF27AE68DA2 /* IQKeyboardManager-Private.xcconfig */,
+				CEC386394298D4C9F8CC598F184ADC18 /* IQKeyboardManager-dummy.m */,
+				DB7EA5F64C4E0000F4FDFA00AC9D8EE4 /* IQKeyboardManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		16DF916253CC725F6542CBAB88BAEE90 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				0C3F50855EDB6652C15ABAE0DD5B527D /* Chameleon.h */,
+				95C5CAD562011C3817D8BF51B7408318 /* ChameleonConstants.h */,
+				C621B2CCC32FBD56CEF1BB41DFBD2A05 /* ChameleonConstants.m */,
+				9677A50DF031EA32917A78BF9BCA38A5 /* ChameleonEnums.h */,
+				79E060C9C57D34CFA726798149D48EDC /* ChameleonMacros.h */,
+				E3FEDCF7A227DA8A052A049954C5F594 /* Chameleon_.h */,
+				ED83A38896874C8025E705FB13E49FE0 /* Chameleon_.m */,
+				DD537F6FA3542A0B666893F9A3D128EE /* NSArray+Chameleon.h */,
+				BBDE5FA8682A182A90B513C45A1548E8 /* NSArray+Chameleon.m */,
+				EA8CFE91809AB1A560164D56EB25AE33 /* UIButton+Chameleon.h */,
+				ABD367EA2210228F63701547C20353FE /* UIButton+Chameleon.m */,
+				D837B88B5E81B4E141F31DA85199BA41 /* UIColor+Chameleon.h */,
+				FC52E5D544ECF1ADF67F919F011F1D10 /* UIColor+Chameleon.m */,
+				AB5C4F51DC77CAD6B4A25B3ABF9EA3B3 /* UIColor+ChameleonPrivate.h */,
+				62BC22764F9E109992955AB01CB41B9E /* UIColor+ChameleonPrivate.m */,
+				2DDBCE3300E0A3E0CDF8335CECB1D088 /* UIImage+ChameleonPrivate.h */,
+				D055FCDED8C8FF06A197588B171FD696 /* UIImage+ChameleonPrivate.m */,
+				39B51223FA63186B69DE0DB18B3DDAB1 /* UILabel+Chameleon.h */,
+				8E750D5802C3273E982FA65A81E6720E /* UILabel+Chameleon.m */,
+				D37549E41DCB92DB28DC1E5AFDC7231E /* UINavigationController+Chameleon.h */,
+				C337B16172A034622402116DA9872B22 /* UINavigationController+Chameleon.m */,
+				B0E62B016F2BFEA1823523944179C7F0 /* UIView+ChameleonPrivate.h */,
+				6E5CF102671ADDCED47BC8C7DFB66DBA /* UIView+ChameleonPrivate.m */,
+				7B90189411058B07D1A5C97848A79374 /* UIViewController+Chameleon.h */,
+				8D031CEFEA0F5863CAA8577451CC44A3 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		4F6960C4FCB1CD13301A92EF9D4FD7DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF6AD6332C11DE1D5B4BEAC32669F2 /* ChameleonFramework.xcconfig */,
+				9EC5C05E571C519FA8832B3FC93DC7B1 /* ChameleonFramework-Private.xcconfig */,
+				1F7358F1BBFA358631EADB73543A14B8 /* ChameleonFramework-dummy.m */,
+				ACA53625E9681A7B6D92B4E524A40BC7 /* ChameleonFramework-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ChameleonFramework";
@@ -241,30 +318,50 @@
 		6CB6AAB047A1193DA81CD6676BE1EC87 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9B7AEB38710C65E1014C79B44BEC26A6 /* CoreGraphics.framework */,
-				1554599631C725C282139A9CE0830E56 /* Foundation.framework */,
-				12A436D93F9ED199915FCF0FF1AD93EF /* QuartzCore.framework */,
-				505A50CFEA68E0309922FDDC3B690D77 /* UIKit.framework */,
+				C9BD3F14AE0AB827FD657A1A6FC461FD /* CoreGraphics.framework */,
+				C116E9875C80FFFFA65B149FCDB5758E /* Foundation.framework */,
+				AD11F5D59DE5BF80057FEF68C3543CB5 /* QuartzCore.framework */,
+				DA0DFFEC6ED8FBA4A482EAADB1D4851C /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+		7431CCA512EDB405FFD711A19722D206 /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
-				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
-				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
-				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
-				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
-				BA7910CE1A508D547563524A03378F08 /* Pods-dummy.m */,
-				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
-				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
-				2C65F111B8B7BEF402B3559E91537ABB /* Pods-umbrella.h */,
-				2DA31F739EA086CF52719807E36FBBBC /* Pods.debug.xcconfig */,
-				1E51BF8B73D784F949FAF09E12DD5313 /* Pods.release.xcconfig */,
+				75675A661C640248D7B4394A1A0213CE /* IQBarButtonItem.h */,
+				27525BBFB385444F174050F8776246AE /* IQBarButtonItem.m */,
+				2A96931A9B16137EBB1AD82F9FBBC273 /* IQKeyboardManager.h */,
+				C46618207583B5BEEE5224E3791F4CEF /* IQKeyboardManager.m */,
+				BC9D1CF4C6255D783AB8303BAA8EDE4C /* IQKeyboardManagerConstants.h */,
+				1F81F0EEBF6C1EBA0C76441FFC664BC2 /* IQKeyboardManagerConstantsInternal.h */,
+				43F79A386A4E106BE731C5094CE8A6C9 /* IQKeyboardReturnKeyHandler.h */,
+				D3827E1EAABC71EB721CBF135E8F024C /* IQKeyboardReturnKeyHandler.m */,
+				BABC442CB6112E7D2E22B68FB65545FE /* IQNSArray+Sort.h */,
+				F04D86B6FDB28BD8D081551610282527 /* IQNSArray+Sort.m */,
+				473ECB386C9B757CE6A3C3D241275790 /* IQSegmentedNextPrevious.h */,
+				BC4E928235120991E1EFB7B3D1DFDFF9 /* IQSegmentedNextPrevious.m */,
+				C1FD08AC0170ADDFB4FAA6151A41A6E6 /* IQTextView.h */,
+				927C81CAE37B9C3578CB1AF1155EDDB8 /* IQTextView.m */,
+				A585276730C62AF85A3A34590558A857 /* IQTitleBarButtonItem.h */,
+				DEA74BF375FF94AC8C2005927467E7E9 /* IQTitleBarButtonItem.m */,
+				8FBFE64AE6FD8E19474DD96839BB8128 /* IQToolbar.h */,
+				24612AC0EC596C9A1A39EDABD60D98D4 /* IQToolbar.m */,
+				3A49202E3D75B13FDE4887226984A2FA /* IQUITextFieldView+Additions.h */,
+				081B2C8D203815ADFF0A7F2CE7EFA4AE /* IQUITextFieldView+Additions.m */,
+				E715747342341CBCF411465B0E0B244C /* IQUIView+Hierarchy.h */,
+				0E50597BA6F43D18E59BAC07EB2C8396 /* IQUIView+Hierarchy.m */,
+				C0C4BCA8999DAA7BCEA7559A803058A8 /* IQUIView+IQKeyboardToolbar.h */,
+				448D10EF09AA9BADAADDF66685AF2C88 /* IQUIView+IQKeyboardToolbar.m */,
+				841B6606C0E07E1021264DC2B805AB8D /* IQUIViewController+Additions.h */,
+				81567FCD0436EB427DB9B38E68924E72 /* IQUIViewController+Additions.m */,
+				BCD8D28209B0AF67BA940C3054F693C5 /* IQUIWindow+Hierarchy.h */,
+				158E82588E92C3943E54934216A29686 /* IQUIWindow+Hierarchy.m */,
+				3070C96295B013407E3C1435C267955E /* KeyboardManager.h */,
+				B82C7E7C85962E916729EDB45C6C91C7 /* Resources */,
+				16A4A2BB8067145414DFA1167D798D6C /* Support Files */,
 			);
-			name = Pods;
-			path = "Target Support Files/Pods";
+			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -272,117 +369,187 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				1B7D7056717202463A0854436F23182D /* Pods */,
+				E636D3E33CA3B250DCB08692DB69ACDD /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		91A8BE2DB26BA56B4A070AD6B26C10F4 /* CROCOVideoBackground */ = {
+		857EB5498830528B55D7074AFA791FFB /* ChameleonFramework */ = {
 			isa = PBXGroup;
 			children = (
-				45F7C8EF8B1AFD1A6A256EE9264226B6 /* CROCOVideoBackground.h */,
-				DF7BA4FF769BFCA7A25D7471A4E06F94 /* CROCOVideoBackground.m */,
-				BA745C96141EFEC45BCB01F95EE3A9A4 /* Support Files */,
+				16DF916253CC725F6542CBAB88BAEE90 /* Default */,
+				4F6960C4FCB1CD13301A92EF9D4FD7DB /* Support Files */,
 			);
-			path = CROCOVideoBackground;
+			path = ChameleonFramework;
 			sourceTree = "<group>";
 		};
-		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+		91D238FA286AD19E0FFD57B468EC4D83 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BA745C96141EFEC45BCB01F95EE3A9A4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F66605116C6D66DD42E53124E28EA430 /* CROCOVideoBackground.modulemap */,
-				294A323D94974DF524F10B0328CC0BB7 /* CROCOVideoBackground.xcconfig */,
-				0276CBB119BADB2E0E6516DC93E939FE /* CROCOVideoBackground-Private.xcconfig */,
-				FCB763D6009F63A3A568DE1F7AA733EE /* CROCOVideoBackground-dummy.m */,
-				35216CACC263F6E118D172287AD6C936 /* CROCOVideoBackground-prefix.pch */,
-				0C78DB24F223DFA76A04A5B8CBE09341 /* CROCOVideoBackground-umbrella.h */,
-				8EE1BE86690846562D1534FC582272BF /* Info.plist */,
+				673D64864B71F2F852A06E2F638B34B9 /* CROCOVideoBackground.xcconfig */,
+				027982B6AF64A0B6655F88AF8F5A87A0 /* CROCOVideoBackground-Private.xcconfig */,
+				055B248013F01EEC45BDC9221458F6AE /* CROCOVideoBackground-dummy.m */,
+				41A22981A5862E96E890E6AD4B741342 /* CROCOVideoBackground-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CROCOVideoBackground";
 			sourceTree = "<group>";
 		};
-		BEC586D0190DCA35A9EC43074C22B442 /* ChameleonFramework */ = {
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				097BC186695224DE96E9C03878F6A8F8 /* Default */,
-				3802BD16FC2277B749CBE1DF1D9D133B /* Support Files */,
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				87C7189B026B258D07BCFC94F2DA8C5C /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				5A3BDCFA9D4D9DE50272AB5E1372D71E /* Pods.debug.xcconfig */,
+				BF7A82D5914BC6FBAB2DC38B4DD0E81A /* Pods.release.xcconfig */,
 			);
-			path = ChameleonFramework;
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B82C7E7C85962E916729EDB45C6C91C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2BF9FB41C04C76F1C346E74B66857CA /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E5F684CC7A5AC36CA8F1E2749A59C2A /* CROCOVideoBackground.bundle */,
-				CA2AA7D27EACD8B9B7E6B05766F5A937 /* CROCOVideoBackground.framework */,
-				AB0D5F0E113CA3123F3890C23C84C31E /* ChameleonFramework.framework */,
-				7AE35E769F148D5E0537A384C96CB55F /* Pods.framework */,
+				DA07D8FD58E64F0ADF9F3EDE9027EF21 /* CROCOVideoBackground.bundle */,
+				899D1F216B53536B9BD65D2FF2ACB1B8 /* libCROCOVideoBackground.a */,
+				5D6286EA3530FD3A73602668C4B84B99 /* libChameleonFramework.a */,
+				A8B8E4CE0B046420FE3344C7F4CCE299 /* libIQKeyboardManager.a */,
+				8FFC859640556A25B2EBACE869A5FC8A /* libPods.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E636D3E33CA3B250DCB08692DB69ACDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				168761FD9FF43C774E3FA5C0C488377E /* CROCOVideoBackground */,
+				857EB5498830528B55D7074AFA791FFB /* ChameleonFramework */,
+				7431CCA512EDB405FFD711A19722D206 /* IQKeyboardManager */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E95F3BE17D103A12584AC414B78F507 /* Headers */ = {
+		09C6A17D6F1EBC7503BF348D9BF9D544 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B0B551018772CE920C60CDBF4B5649 /* Pods-umbrella.h in Headers */,
+				ECA0A81D4C0B57302DBC0FFCE896C445 /* CROCOVideoBackground.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5A3AEE4E5E88FDF1598F2406A960467 /* Headers */ = {
+		2B95A61AACB70C1878DFA964A3BFD495 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B01DE3A2CB6481FB588D842AA3E9A78 /* Chameleon.h in Headers */,
-				09CA58C5A5C240229FF506F37E291940 /* ChameleonConstants.h in Headers */,
-				56EB4A38FE0DF08D15237E64E6FEAC8A /* ChameleonEnums.h in Headers */,
-				D8AABBA89235086FBC15563BE57A6F9D /* ChameleonFramework-umbrella.h in Headers */,
-				7D18CE3D78BE1EB38606433102FED3FA /* ChameleonMacros.h in Headers */,
-				CD80541CD041B7FA27CCF9B8344A03AC /* Chameleon_.h in Headers */,
-				27A8F97BE4233B64F6A24CF467C578C7 /* NSArray+Chameleon.h in Headers */,
-				0CFDFE0B9937328331EB8ED9B0011DE3 /* UIButton+Chameleon.h in Headers */,
-				BEA99172B40D843AFC722F334F7453B5 /* UIColor+Chameleon.h in Headers */,
-				9663CAE321F9B976EB4DEA0010022465 /* UIColor+ChameleonPrivate.h in Headers */,
-				448F3A025DE1AD9E69F273745DADDAEF /* UIImage+ChameleonPrivate.h in Headers */,
-				4FB44504EAB0139617D34265A08CD716 /* UILabel+Chameleon.h in Headers */,
-				AB8C797456E475E814C44103CFD9AAA6 /* UINavigationController+Chameleon.h in Headers */,
-				B0647EA0BE8BAF817E43F26A9EE8B595 /* UIView+ChameleonPrivate.h in Headers */,
-				1246715657F5BFD18AD3E8C6D336FED9 /* UIViewController+Chameleon.h in Headers */,
+				D685B0C97B12657C1F41AB2D20E084AE /* Chameleon.h in Headers */,
+				06C096615EE4D3FB2B53381A8EE21C8E /* ChameleonConstants.h in Headers */,
+				4675D6DD2E0BE65D87C39C1ADF19B04F /* ChameleonEnums.h in Headers */,
+				84BE9216810288D6E660FBA56482B259 /* ChameleonMacros.h in Headers */,
+				D3F65FDADC993B5783EC2CF883C141FB /* Chameleon_.h in Headers */,
+				10FF43C748B194676B10D410C29BA13A /* NSArray+Chameleon.h in Headers */,
+				0797A1C802091256AD4306199B96E567 /* UIButton+Chameleon.h in Headers */,
+				6716BB25ECBE2BF5079CA6F427E3F237 /* UIColor+Chameleon.h in Headers */,
+				82ABB8225BA61DD3953427638BE826E5 /* UIColor+ChameleonPrivate.h in Headers */,
+				16E4CBE0CA98330E4D18AC0A6B7D38AB /* UIImage+ChameleonPrivate.h in Headers */,
+				7922A47738FC21EEA6F73D0BEFC8B59B /* UILabel+Chameleon.h in Headers */,
+				219F3E165AB739D43D9DDC0C2985C353 /* UINavigationController+Chameleon.h in Headers */,
+				B0DCC65C7FFE862C53DDA49173836F7F /* UIView+ChameleonPrivate.h in Headers */,
+				986C4AF9BB8EDF315B2E5FB09714241D /* UIViewController+Chameleon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3EDB2453B4C3750099DEE7D42FE01A5 /* Headers */ = {
+		A59ED78EDC3F40CBAF0AC2940BEB744D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6793797D118EE9FCD1CB2457A943A73B /* CROCOVideoBackground-umbrella.h in Headers */,
-				69FD9F444B09000A3E90F7883BDCE9BE /* CROCOVideoBackground.h in Headers */,
+				0428005F247F87A355B6B80F94145D7E /* IQBarButtonItem.h in Headers */,
+				096719D6C14B442E14EC045C4401F495 /* IQKeyboardManager.h in Headers */,
+				71F675931A6C7830F32EEDC89B16BDA2 /* IQKeyboardManagerConstants.h in Headers */,
+				40B206A77AACB1B3B9789B1D78342A92 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				FD274C44825A20918F74A14E42F25F3A /* IQKeyboardReturnKeyHandler.h in Headers */,
+				654A998D64DDF6C13466A262784E2761 /* IQNSArray+Sort.h in Headers */,
+				7E798E02D173FB58205F1582B3E515A3 /* IQSegmentedNextPrevious.h in Headers */,
+				3E4EF53FB0E5E4724824E121C716234A /* IQTextView.h in Headers */,
+				FB901E2257B715AB050BF822B5F2F03D /* IQTitleBarButtonItem.h in Headers */,
+				10F67377888EA1E1207960646080A93D /* IQToolbar.h in Headers */,
+				A864A6761740731283BE61B485F4E557 /* IQUITextFieldView+Additions.h in Headers */,
+				E1CF66614F5CC7DE1E586F0BDE80EC83 /* IQUIView+Hierarchy.h in Headers */,
+				5595F2BEF259CF6C57DC76E9834018E5 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				055915872C0BD09B14ADA364BF102BFE /* IQUIViewController+Additions.h in Headers */,
+				4D4AB08B28FC5C28B51DA01A646D4F31 /* IQUIWindow+Hierarchy.h in Headers */,
+				A890A90567E41EB539BA89B2C9C493AB /* KeyboardManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0893EAC245F1003092C4918B2FC764F8 /* ChameleonFramework */ = {
+		1D747CFA1C4B78F2790A2298EE0B7058 /* CROCOVideoBackground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8521348BA8D6DC9936710B002B030186 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildConfigurationList = 68BC63D25DFA374A247DB09432C19792 /* Build configuration list for PBXNativeTarget "CROCOVideoBackground" */;
 			buildPhases = (
-				AEF76A0E5B5500BB46523EAC5E660835 /* Sources */,
-				CA12EDD193C390AE907C99742FA2BF1C /* Frameworks */,
-				A5A3AEE4E5E88FDF1598F2406A960467 /* Headers */,
+				BFA1AFBA4A5EFED49A02906AC16F174D /* Sources */,
+				5260951E6A6E89CBE6D69FF33E772E9A /* Frameworks */,
+				09C6A17D6F1EBC7503BF348D9BF9D544 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2E6002ADF2F5E51BB82B4504F554A06 /* PBXTargetDependency */,
+			);
+			name = CROCOVideoBackground;
+			productName = CROCOVideoBackground;
+			productReference = 899D1F216B53536B9BD65D2FF2ACB1B8 /* libCROCOVideoBackground.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		375187AC8F99B2FBA670C0BF0D9DA4D1 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C4E909ACBF92644947818A80AB9453 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				D43455A16C0366C82C4BD32CDFE877E4 /* Sources */,
+				54F2B38FCA1D16EA1834695C19B47DC8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E39C8F67C2FAFF600CE9A20A6A0FC7 /* PBXTargetDependency */,
+				0F87AB8D691538817142932134BFEC40 /* PBXTargetDependency */,
+				EAD5FA66C5A5F35CF309014BFB4B9FA9 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 8FFC859640556A25B2EBACE869A5FC8A /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		75A8ABF8BED25CCC7170FDF47A3B8B4A /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0FFF23F6E51319C831080F795C2DCB /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				E2B32763ED7705390EA634D63F63546F /* Sources */,
+				E79DD14B306B37D019A50F994674E585 /* Frameworks */,
+				2B95A61AACB70C1878DFA964A3BFD495 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -390,35 +557,33 @@
 			);
 			name = ChameleonFramework;
 			productName = ChameleonFramework;
-			productReference = AB0D5F0E113CA3123F3890C23C84C31E /* ChameleonFramework.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 5D6286EA3530FD3A73602668C4B84B99 /* libChameleonFramework.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		677261BF159D942AEFF9D24AF35B1473 /* CROCOVideoBackground */ = {
+		7C9BC1BBD89F6FA1A83A0D2E2F4BD5B2 /* IQKeyboardManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 139B0FE88087F857478A2C60090ADCF2 /* Build configuration list for PBXNativeTarget "CROCOVideoBackground" */;
+			buildConfigurationList = 31E260695DB24FACB3A90C619D39727E /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
 			buildPhases = (
-				429F7487F42EA741BFFF2C6C2D13E560 /* Sources */,
-				CB503D447DCDD71FBCCC16D0425B9B1F /* Frameworks */,
-				2D2BE1E24541013FC2E1246070E58CEC /* Resources */,
-				F3EDB2453B4C3750099DEE7D42FE01A5 /* Headers */,
+				4690514822174FA052F784E220783EAE /* Sources */,
+				2632E883C5FB88F75393A1343C62CF5F /* Frameworks */,
+				A59ED78EDC3F40CBAF0AC2940BEB744D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4681A5642AF9FE608D217A1F9E5AFB27 /* PBXTargetDependency */,
 			);
-			name = CROCOVideoBackground;
-			productName = CROCOVideoBackground;
-			productReference = CA2AA7D27EACD8B9B7E6B05766F5A937 /* CROCOVideoBackground.framework */;
-			productType = "com.apple.product-type.framework";
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = A8B8E4CE0B046420FE3344C7F4CCE299 /* libIQKeyboardManager.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		DFF31529F4411C5A8F7AEC6955E77933 /* CROCOVideoBackground-CROCOVideoBackground */ = {
+		E941581210279080FAAFAAD34EE5CEE2 /* CROCOVideoBackground-CROCOVideoBackground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E13EBBCF44458E595C1BC857C4CB7584 /* Build configuration list for PBXNativeTarget "CROCOVideoBackground-CROCOVideoBackground" */;
+			buildConfigurationList = 043270B1BE19609016B35DB18D994657 /* Build configuration list for PBXNativeTarget "CROCOVideoBackground-CROCOVideoBackground" */;
 			buildPhases = (
-				DD966143552C592FCD9BF24CCB507238 /* Sources */,
-				1838FB7F361A92B1E3522481A353DF3F /* Frameworks */,
-				D0DB10AFB43F88D212BF760C66CB08D7 /* Resources */,
+				134ACFE70A91758C3CAABD921E3A3103 /* Sources */,
+				B15D4E5091851C9F18ACB523D7FF9CA9 /* Frameworks */,
+				4DFD806221AE56CD16C3D96D72224BC1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -426,27 +591,8 @@
 			);
 			name = "CROCOVideoBackground-CROCOVideoBackground";
 			productName = "CROCOVideoBackground-CROCOVideoBackground";
-			productReference = 5E5F684CC7A5AC36CA8F1E2749A59C2A /* CROCOVideoBackground.bundle */;
+			productReference = DA07D8FD58E64F0ADF9F3EDE9027EF21 /* CROCOVideoBackground.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		E8950C1302582DBC7EC575E34717FA67 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60DED662A29ED63D7A5DDFB271A3013D /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				7F66DF38B9DE432A480074EC8EF9AD33 /* Sources */,
-				3674C6D9C603C5118995C8CDFA0C9B2F /* Frameworks */,
-				0E95F3BE17D103A12584AC414B78F507 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB7F298FDDCD5014D60F51DF7BD1A56A /* PBXTargetDependency */,
-				A1DB1AC8FE8369943523C9DBF1C3D702 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 7AE35E769F148D5E0537A384C96CB55F /* Pods.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -469,24 +615,17 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				677261BF159D942AEFF9D24AF35B1473 /* CROCOVideoBackground */,
-				DFF31529F4411C5A8F7AEC6955E77933 /* CROCOVideoBackground-CROCOVideoBackground */,
-				0893EAC245F1003092C4918B2FC764F8 /* ChameleonFramework */,
-				E8950C1302582DBC7EC575E34717FA67 /* Pods */,
+				1D747CFA1C4B78F2790A2298EE0B7058 /* CROCOVideoBackground */,
+				E941581210279080FAAFAAD34EE5CEE2 /* CROCOVideoBackground-CROCOVideoBackground */,
+				75A8ABF8BED25CCC7170FDF47A3B8B4A /* ChameleonFramework */,
+				7C9BC1BBD89F6FA1A83A0D2E2F4BD5B2 /* IQKeyboardManager */,
+				375187AC8F99B2FBA670C0BF0D9DA4D1 /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D2BE1E24541013FC2E1246070E58CEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA2C6C586686514FB862586272DE0092 /* CROCOVideoBackground.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0DB10AFB43F88D212BF760C66CB08D7 /* Resources */ = {
+		4DFD806221AE56CD16C3D96D72224BC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -496,103 +635,135 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		429F7487F42EA741BFFF2C6C2D13E560 /* Sources */ = {
+		134ACFE70A91758C3CAABD921E3A3103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA27DA4A16E88C454636C2F2BE05B9F /* CROCOVideoBackground-dummy.m in Sources */,
-				83361243F81A42631ED98717DBD4501D /* CROCOVideoBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F66DF38B9DE432A480074EC8EF9AD33 /* Sources */ = {
+		4690514822174FA052F784E220783EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA23E3DB48B10084D7762433FD76492 /* Pods-dummy.m in Sources */,
+				4931455BCE58C833A20E81A5A39CEA6E /* IQBarButtonItem.m in Sources */,
+				66ED7DB92C84CB1DE5B5C3A0946E723C /* IQKeyboardManager-dummy.m in Sources */,
+				4B35781468F1470617E27F469D4F9B59 /* IQKeyboardManager.m in Sources */,
+				C372B8F7D6C0E37EF9967E0A5B474527 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				4AFBCFC262BB45A78958CC2C311E4495 /* IQNSArray+Sort.m in Sources */,
+				7408770FC88E8F136BC3A6004639AB0A /* IQSegmentedNextPrevious.m in Sources */,
+				B1D54CFD5E81E8E7C1F52C459B039E9F /* IQTextView.m in Sources */,
+				A44EAFEC82C7CDC0135BFDF4CD99CCC4 /* IQTitleBarButtonItem.m in Sources */,
+				E9E7BD4C3D7C030FB1B4D46311121F63 /* IQToolbar.m in Sources */,
+				80F3AC75F17C099BB7F5BB5040C941CD /* IQUITextFieldView+Additions.m in Sources */,
+				0C5AA858742255735BA1C52572037480 /* IQUIView+Hierarchy.m in Sources */,
+				A618296D760F1036B77489BF46AEED3C /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				6164AE66C237E625C76A93D5AA9E8D7E /* IQUIViewController+Additions.m in Sources */,
+				6A7EB6146D72D123CED2F42B6F385E28 /* IQUIWindow+Hierarchy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEF76A0E5B5500BB46523EAC5E660835 /* Sources */ = {
+		BFA1AFBA4A5EFED49A02906AC16F174D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E89759C67F7E6F246CC8FE79362138 /* ChameleonConstants.m in Sources */,
-				465FC59791792491289E08316CD97E64 /* ChameleonFramework-dummy.m in Sources */,
-				33B113A7B499E8D3DB73BD94A7C4B80D /* Chameleon_.m in Sources */,
-				88364FB5F0250470236BDCF2B3ECAAD5 /* NSArray+Chameleon.m in Sources */,
-				D15792F7BE975C23EE1A04A5DA5E1B70 /* UIButton+Chameleon.m in Sources */,
-				5F801D2C8C2766020955FC1354CF04A4 /* UIColor+Chameleon.m in Sources */,
-				B76BE507D14AAF7B59CC5D25A04D679C /* UIColor+ChameleonPrivate.m in Sources */,
-				D3A0DA8D51AD3D847C426A0C7EE52769 /* UIImage+ChameleonPrivate.m in Sources */,
-				72771DD5E4DADF358747A3F443BEAA8B /* UILabel+Chameleon.m in Sources */,
-				06EF5519D07BD7F959DE1A6DFBACCA3A /* UINavigationController+Chameleon.m in Sources */,
-				36E6E8E475E566C4B2EB9091794BC9DF /* UIView+ChameleonPrivate.m in Sources */,
-				C7EFFD2DF3EC60A001EDD82826CF33FD /* UIViewController+Chameleon.m in Sources */,
+				339CFEFC2606E31DFD624E79D0BE6D1E /* CROCOVideoBackground-dummy.m in Sources */,
+				3CCA09B87B53A7E119B07E67221A92E4 /* CROCOVideoBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD966143552C592FCD9BF24CCB507238 /* Sources */ = {
+		D43455A16C0366C82C4BD32CDFE877E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B97227C998651E6ECCDFCDFBBD6305 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B32763ED7705390EA634D63F63546F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0919F8089CE5A55D971CCF9B4F30DEA0 /* ChameleonConstants.m in Sources */,
+				EA694807D408BD40A965F3D899E3490D /* ChameleonFramework-dummy.m in Sources */,
+				88E84BD12B69F591A0B5B4D347F58923 /* Chameleon_.m in Sources */,
+				6651E2F0548ACEDD956C3FAEE0E015C8 /* NSArray+Chameleon.m in Sources */,
+				9A5694A8F47A705917CD387E7AB668E8 /* UIButton+Chameleon.m in Sources */,
+				E83126BFFB5C8A9B5C6F01A01121B7A9 /* UIColor+Chameleon.m in Sources */,
+				2A7D84CC9703CAD0397F59DBC4712DBE /* UIColor+ChameleonPrivate.m in Sources */,
+				6FCE326C5CFA0174DD06F6FCE7AFEC47 /* UIImage+ChameleonPrivate.m in Sources */,
+				59B96CCFB8556BEE043D8657150D9970 /* UILabel+Chameleon.m in Sources */,
+				9C03B92D9AE923DA39525C8C041EED9A /* UINavigationController+Chameleon.m in Sources */,
+				A4893B9701F8EFCB9F5D2643EF5E4722 /* UIView+ChameleonPrivate.m in Sources */,
+				D611006D0C0437A5BCD7D79BC45B5C48 /* UIViewController+Chameleon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4681A5642AF9FE608D217A1F9E5AFB27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CROCOVideoBackground-CROCOVideoBackground";
-			target = DFF31529F4411C5A8F7AEC6955E77933 /* CROCOVideoBackground-CROCOVideoBackground */;
-			targetProxy = 92F44867F8848F08282C72DF02EAFCEA /* PBXContainerItemProxy */;
-		};
-		A1DB1AC8FE8369943523C9DBF1C3D702 /* PBXTargetDependency */ = {
+		0F87AB8D691538817142932134BFEC40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChameleonFramework;
-			target = 0893EAC245F1003092C4918B2FC764F8 /* ChameleonFramework */;
-			targetProxy = BFD62B55D3AC33BF4D7361C00101E386 /* PBXContainerItemProxy */;
+			target = 75A8ABF8BED25CCC7170FDF47A3B8B4A /* ChameleonFramework */;
+			targetProxy = A9B02B6A40D66C4E2F35C56DA753EAD8 /* PBXContainerItemProxy */;
 		};
-		CB7F298FDDCD5014D60F51DF7BD1A56A /* PBXTargetDependency */ = {
+		A2E6002ADF2F5E51BB82B4504F554A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CROCOVideoBackground-CROCOVideoBackground";
+			target = E941581210279080FAAFAAD34EE5CEE2 /* CROCOVideoBackground-CROCOVideoBackground */;
+			targetProxy = 36100743708C5B111B6D22B602A8F5DC /* PBXContainerItemProxy */;
+		};
+		D5E39C8F67C2FAFF600CE9A20A6A0FC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CROCOVideoBackground;
-			target = 677261BF159D942AEFF9D24AF35B1473 /* CROCOVideoBackground */;
-			targetProxy = 0A1D79E15610AACF8C553C50D9898375 /* PBXContainerItemProxy */;
+			target = 1D747CFA1C4B78F2790A2298EE0B7058 /* CROCOVideoBackground */;
+			targetProxy = C5854F63F169F01F612BE0843D6F597C /* PBXContainerItemProxy */;
+		};
+		EAD5FA66C5A5F35CF309014BFB4B9FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = 7C9BC1BBD89F6FA1A83A0D2E2F4BD5B2 /* IQKeyboardManager */;
+			targetProxy = 6CD5E702CEA874B6F0B0963E02F47568 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09184A08E2DB52A86B8AA895D5E1A2D6 /* Debug */ = {
+		08602ACFF4D522D4CFE8D70BE2B5FD89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EFFAC466E7D97D3FBD2A2C44629505D /* ChameleonFramework-Private.xcconfig */;
+			baseConfigurationReference = 5A3BDCFA9D4D9DE50272AB5E1372D71E /* Pods.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.4;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ChameleonFramework;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4D722FB2C1EE34B64A1C4EBEEF2AFD91 /* Debug */ = {
+		1049749CE187AE069B9FF2E62950CA6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0276CBB119BADB2E0E6516DC93E939FE /* CROCOVideoBackground-Private.xcconfig */;
+			baseConfigurationReference = 2FD436CD829BF618DE00CDF27AE68DA2 /* IQKeyboardManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5146C5A6772D5CADE74C7B1736F3F503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027982B6AF64A0B6655F88AF8F5A87A0 /* CROCOVideoBackground-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = CROCOVideoBackground;
@@ -600,34 +771,7 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
-		};
-		4E1B1F675E8B0EFC48CF96FF9730AB52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0276CBB119BADB2E0E6516DC93E939FE /* CROCOVideoBackground-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CROCOVideoBackground/CROCOVideoBackground-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CROCOVideoBackground/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CROCOVideoBackground/CROCOVideoBackground.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CROCOVideoBackground;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -668,6 +812,22 @@
 			};
 			name = Debug;
 		};
+		6C24DF0971B342D11B54B1B3EC91217F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7A82D5914BC6FBAB2DC38B4DD0E81A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -702,121 +862,57 @@
 			};
 			name = Release;
 		};
-		75A49C73961B1A0648EFE66EC8337A81 /* Debug */ = {
+		9F045FDCF40F0D435BCEFFC10A56923E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DA31F739EA086CF52719807E36FBBBC /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9EC5C05E571C519FA8832B3FC93DC7B1 /* ChameleonFramework-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		92FFE5E2BA564E623041EABAC64376DC /* Release */ = {
+		B74E79E867802A7D1EB61C3937A824D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0276CBB119BADB2E0E6516DC93E939FE /* CROCOVideoBackground-Private.xcconfig */;
+			baseConfigurationReference = 027982B6AF64A0B6655F88AF8F5A87A0 /* CROCOVideoBackground-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CROCOVideoBackground/CROCOVideoBackground-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CROCOVideoBackground/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CROCOVideoBackground/CROCOVideoBackground.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CROCOVideoBackground;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C244797F59B97214F77A899F488AEB01 /* Release */ = {
+		DC1570F6C04483A0174EE4C20A4DDEEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EFFAC466E7D97D3FBD2A2C44629505D /* ChameleonFramework-Private.xcconfig */;
+			baseConfigurationReference = 9EC5C05E571C519FA8832B3FC93DC7B1 /* ChameleonFramework-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.4;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ChameleonFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D53626CB9E4760B2BF261EEF2DEDBB53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E51BF8B73D784F949FAF09E12DD5313 /* Pods.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FF7FC5DA3FF977BAB1C9BCB5A17D2342 /* Release */ = {
+		DF7B89EB24BDB59DA10718854A21FB7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0276CBB119BADB2E0E6516DC93E939FE /* CROCOVideoBackground-Private.xcconfig */;
+			baseConfigurationReference = 027982B6AF64A0B6655F88AF8F5A87A0 /* CROCOVideoBackground-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = CROCOVideoBackground;
@@ -824,16 +920,48 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
+			name = Debug;
+		};
+		F57D6316420470EB8A8BD205E880005F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD436CD829BF618DE00CDF27AE68DA2 /* IQKeyboardManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA6800728FB071B0348D9A32552F38CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027982B6AF64A0B6655F88AF8F5A87A0 /* CROCOVideoBackground-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CROCOVideoBackground/CROCOVideoBackground-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		139B0FE88087F857478A2C60090ADCF2 /* Build configuration list for PBXNativeTarget "CROCOVideoBackground" */ = {
+		043270B1BE19609016B35DB18D994657 /* Build configuration list for PBXNativeTarget "CROCOVideoBackground-CROCOVideoBackground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E1B1F675E8B0EFC48CF96FF9730AB52 /* Debug */,
-				92FFE5E2BA564E623041EABAC64376DC /* Release */,
+				DF7B89EB24BDB59DA10718854A21FB7A /* Debug */,
+				5146C5A6772D5CADE74C7B1736F3F503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -847,29 +975,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60DED662A29ED63D7A5DDFB271A3013D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		31E260695DB24FACB3A90C619D39727E /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75A49C73961B1A0648EFE66EC8337A81 /* Debug */,
-				D53626CB9E4760B2BF261EEF2DEDBB53 /* Release */,
+				F57D6316420470EB8A8BD205E880005F /* Debug */,
+				1049749CE187AE069B9FF2E62950CA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8521348BA8D6DC9936710B002B030186 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+		3F0FFF23F6E51319C831080F795C2DCB /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09184A08E2DB52A86B8AA895D5E1A2D6 /* Debug */,
-				C244797F59B97214F77A899F488AEB01 /* Release */,
+				9F045FDCF40F0D435BCEFFC10A56923E /* Debug */,
+				DC1570F6C04483A0174EE4C20A4DDEEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E13EBBCF44458E595C1BC857C4CB7584 /* Build configuration list for PBXNativeTarget "CROCOVideoBackground-CROCOVideoBackground" */ = {
+		66C4E909ACBF92644947818A80AB9453 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D722FB2C1EE34B64A1C4EBEEF2AFD91 /* Debug */,
-				FF7FC5DA3FF977BAB1C9BCB5A17D2342 /* Release */,
+				08602ACFF4D522D4CFE8D70BE2B5FD89 /* Debug */,
+				6C24DF0971B342D11B54B1B3EC91217F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BC63D25DFA374A247DB09432C19792 /* Build configuration list for PBXNativeTarget "CROCOVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74E79E867802A7D1EB61C3937A824D0 /* Debug */,
+				FA6800728FB071B0348D9A32552F38CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

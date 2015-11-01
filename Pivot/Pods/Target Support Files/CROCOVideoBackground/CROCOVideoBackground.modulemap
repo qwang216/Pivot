@@ -1,6 +1,0 @@
-framework module CROCOVideoBackground {
-  umbrella header "CROCOVideoBackground-umbrella.h"
-
-  export *
-  module * { export * }
-}

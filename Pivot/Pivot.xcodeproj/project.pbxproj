@@ -11,16 +11,16 @@
 		506437921BE561D200D0D1FB /* Dataset.m in Sources */ = {isa = PBXBuildFile; fileRef = 506437911BE561D200D0D1FB /* Dataset.m */; };
 		5090B5B11BE5B95B00460A48 /* PivotSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5090B5B01BE5B95B00460A48 /* PivotSignUpViewController.m */; };
 		5090B5B41BE5BE7100460A48 /* SharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5090B5B31BE5BE7100460A48 /* SharedManager.m */; };
+		7EE474489225AEEEF0AE8580 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B25F656BE83EBBD0D16886F /* libPods.a */; };
 		892F706A1BE5A439008BD8F8 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 892F70691BE5A02A008BD8F8 /* video.mp4 */; };
 		893D974B1BE5475B001A6077 /* PivotFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97491BE5475B001A6077 /* PivotFeedTableViewCell.m */; };
 		893D97551BE548DD001A6077 /* TimelineLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97531BE548DD001A6077 /* TimelineLeftTableViewCell.m */; };
 		893D975D1BE54993001A6077 /* TimelineRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D975B1BE54993001A6077 /* TimelineRightTableViewCell.m */; };
 		893D97651BE54F71001A6077 /* PivotFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97641BE54F71001A6077 /* PivotFeedTableViewController.m */; };
-		893D97681BE54F98001A6077 /* ResourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97671BE54F98001A6077 /* ResourcesViewController.m */; };
 		893D976B1BE54FAF001A6077 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D976A1BE54FAF001A6077 /* ProfileViewController.m */; };
 		893D976E1BE54FBC001A6077 /* ProfileDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */; };
 		89A0283E1BE683BD00F441A0 /* AddExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A0283D1BE683BD00F441A0 /* AddExperienceViewController.m */; };
-		9075DC38F329FBDDC44D702A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD0C456F5354EFB4023C783 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		89A6BE791BE6985300CB36E3 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A6BE781BE6985300CB36E3 /* MessagesViewController.m */; };
 		D48A8E3D1BE55CB800223727 /* PivotTechieProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48A8E3C1BE55CB800223727 /* PivotTechieProfileViewController.m */; };
 		D48A8E401BE55D0400223727 /* PivotTechieProfileDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48A8E3F1BE55D0400223727 /* PivotTechieProfileDetailViewController.m */; };
 		D4E118581BE528C5000E0FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E118571BE528C5000E0FBA /* main.m */; };
@@ -56,7 +56,6 @@
 
 /* Begin PBXFileReference section */
 		24CBEBF2B3C71F70E0C3F488 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		4CD0C456F5354EFB4023C783 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		504F107A1BE5298800441202 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		504F107B1BE5298800441202 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		506437901BE561D200D0D1FB /* Dataset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dataset.h; sourceTree = "<group>"; };
@@ -74,14 +73,15 @@
 		893D975B1BE54993001A6077 /* TimelineRightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimelineRightTableViewCell.m; path = ../TimelineRightTableViewCell.m; sourceTree = "<group>"; };
 		893D97631BE54F71001A6077 /* PivotFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotFeedTableViewController.h; sourceTree = "<group>"; };
 		893D97641BE54F71001A6077 /* PivotFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PivotFeedTableViewController.m; sourceTree = "<group>"; };
-		893D97661BE54F98001A6077 /* ResourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesViewController.h; sourceTree = "<group>"; };
-		893D97671BE54F98001A6077 /* ResourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesViewController.m; sourceTree = "<group>"; };
 		893D97691BE54FAF001A6077 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		893D976A1BE54FAF001A6077 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		893D976C1BE54FBC001A6077 /* ProfileDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDetailViewController.h; sourceTree = "<group>"; };
 		893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDetailViewController.m; sourceTree = "<group>"; };
 		89A0283C1BE683BD00F441A0 /* AddExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddExperienceViewController.h; sourceTree = "<group>"; };
 		89A0283D1BE683BD00F441A0 /* AddExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddExperienceViewController.m; sourceTree = "<group>"; };
+		89A6BE771BE6985300CB36E3 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		89A6BE781BE6985300CB36E3 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		9B25F656BE83EBBD0D16886F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FB109EDADD34CCAD3D24B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D48A8E3B1BE55CB800223727 /* PivotTechieProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotTechieProfileViewController.h; sourceTree = "<group>"; };
 		D48A8E3C1BE55CB800223727 /* PivotTechieProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PivotTechieProfileViewController.m; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9075DC38F329FBDDC44D702A /* Pods.framework in Frameworks */,
+				7EE474489225AEEEF0AE8580 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +141,7 @@
 		2A0978E7123E54ECC8267133 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CD0C456F5354EFB4023C783 /* Pods.framework */,
+				9B25F656BE83EBBD0D16886F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -254,8 +254,8 @@
 				893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */,
 				893D97691BE54FAF001A6077 /* ProfileViewController.h */,
 				893D976A1BE54FAF001A6077 /* ProfileViewController.m */,
-				893D97661BE54F98001A6077 /* ResourcesViewController.h */,
-				893D97671BE54F98001A6077 /* ResourcesViewController.m */,
+				89A6BE771BE6985300CB36E3 /* MessagesViewController.h */,
+				89A6BE781BE6985300CB36E3 /* MessagesViewController.m */,
 				893D97631BE54F71001A6077 /* PivotFeedTableViewController.h */,
 				893D97641BE54F71001A6077 /* PivotFeedTableViewController.m */,
 				D48A8E3B1BE55CB800223727 /* PivotTechieProfileViewController.h */,
@@ -314,7 +314,6 @@
 				D4E1184F1BE528C5000E0FBA /* Sources */,
 				D4E118501BE528C5000E0FBA /* Frameworks */,
 				D4E118511BE528C5000E0FBA /* Resources */,
-				B2C1DF21DDFBBF7A883885E0 /* Embed Pods Frameworks */,
 				F37780DE28431EEC642581D3 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -451,21 +450,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B2C1DF21DDFBBF7A883885E0 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F37780DE28431EEC642581D3 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,7 +472,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893D97681BE54F98001A6077 /* ResourcesViewController.m in Sources */,
 				D4E118641BE528C5000E0FBA /* Pivot.xcdatamodeld in Sources */,
 				D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */,
 				893D976E1BE54FBC001A6077 /* ProfileDetailViewController.m in Sources */,
@@ -509,6 +492,7 @@
 				893D97651BE54F71001A6077 /* PivotFeedTableViewController.m in Sources */,
 				DC6908951BE52B30009AB0C0 /* Interest.m in Sources */,
 				5090B5B11BE5B95B00460A48 /* PivotSignUpViewController.m in Sources */,
+				89A6BE791BE6985300CB36E3 /* MessagesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

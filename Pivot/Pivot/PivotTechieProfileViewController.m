@@ -7,13 +7,19 @@
 //
 
 #import "PivotTechieProfileViewController.h"
+#import "Event.h"
+#import "TimelineLeftTableViewCell.h"
+#import "TimelineRightTableViewCell.h"
 #import <ChameleonFramework/Chameleon.h>
 
-@interface PivotTechieProfileViewController ()
+@interface PivotTechieProfileViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) IBOutlet UIImageView *profileImageView;
 @property (strong, nonatomic) IBOutlet UILabel *nameLabel;
 @property (strong, nonatomic) IBOutlet UILabel *educationLabel;
 @property (strong, nonatomic) IBOutlet UILabel *professionLabel;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic) Event *timeLineEvent;
+//@property (nonatomic) NSArray *totalEvent;
 
 @end
 
@@ -21,7 +27,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.tableView.delegate = self;
+    
+    self.profileImageView.image = self.user.picture;
+    self.nameLabel.text = self.user.name;
+    self.educationLabel.text = [NSString stringWithFormat:@"%@ - %@", self.user.education.school, self.user.education.degreeType];
+    self.professionLabel.text = self.user.profession;
+//    self.totalEvent = self.user.events;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,5 +51,17 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark - UITableViewDataSource 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.user.events.count;
+}
+
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileTVCID" forIndexPath:indexPath];
+    return cell;
+}
 
 @end

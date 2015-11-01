@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <CROCOVideoBackground/CROCOVideoBackground.h>
+
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet UIView *videoView;
 
 @end
 
@@ -16,12 +20,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.videoView setBackGroundVideo:@"video" withRepeat:YES withOverlayColor:[UIColor blackColor] andAlpha:0.2];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

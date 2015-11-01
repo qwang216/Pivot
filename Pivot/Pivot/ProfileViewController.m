@@ -42,8 +42,8 @@
     
     self.user.events = [NSMutableArray new];
     
-    self.nameLabel.text = self.user.name;
-    self.educationLabel.text = [NSString stringWithFormat:@"%@ - %@", self.user.education.school,self.user.education.degreeType];
+    self.nameLabel.text = @"Sam";
+    self.educationLabel.text = @"Stony Brook University - Art Major";
     
     
     // Do any additional setup after loading the view.

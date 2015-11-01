@@ -25,13 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UINib *nibLeft = [UINib nibWithNibName:@"TimelineLeftTableViewCell" bundle:nil];
-    [self.tableView registerNib:nibLeft forCellReuseIdentifier:@"TimeLineLeftTVCID"];
-    
-    UINib *nibRight = [UINib nibWithNibName:@"TimelineRightTableViewCell" bundle:nil];
-    [self.tableView registerNib:nibRight forCellReuseIdentifier:@"TimeLineRightTVCID"];
-    
-    
+
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
@@ -50,20 +44,24 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    TimelineRightTableViewCell *rightCell = [tableView dequeueReusableCellWithIdentifier:@"TimeLineRightTVCID" forIndexPath:indexPath];
+    TimelineRightTableViewCell *rightCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileRightTVCID" forIndexPath:indexPath];
     rightCell.yearLabel.text = self.user.events[indexPath.row].year;
     rightCell.headlineLabel.text = self.user.events[indexPath.row].headline;
     
-    TimelineLeftTableViewCell *leftCell = [tableView dequeueReusableCellWithIdentifier:@"TimeLineLeftTVCID" forIndexPath:indexPath];
+    TimelineLeftTableViewCell *leftCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileLeftTVCID" forIndexPath:indexPath];
     leftCell.yearLabel.text = self.user.events[indexPath.row].year;
     leftCell.headlineLabel.text = self.user.events[indexPath.row].headline;
     if (indexPath.row % 2) {
-        return rightCell;
-    } else if (indexPath.row == 0){
         return leftCell;
     } else {
-        return leftCell;
+        return rightCell;
     }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    
+    
 }
 
 

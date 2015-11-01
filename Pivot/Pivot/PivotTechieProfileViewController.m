@@ -7,6 +7,7 @@
 //
 
 #import "PivotTechieProfileViewController.h"
+#import "PivotTechieProfileDetailViewController.h"
 #import "Event.h"
 #import "TimelineLeftTableViewCell.h"
 #import "TimelineRightTableViewCell.h"
@@ -31,7 +32,11 @@
     
     self.profileImageView.image = self.user.picture;
     self.nameLabel.text = self.user.name;
+    if (self.user.education.school == nil) {
+        self.educationLabel.text = @"Institution: N/A";
+    } else {
     self.educationLabel.text = [NSString stringWithFormat:@"%@ - %@", self.user.education.school, self.user.education.degreeType];
+    }
     self.professionLabel.text = self.user.profession;
 }
 
@@ -68,5 +73,13 @@
     
 }
 
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    PivotTechieProfileDetailViewController *profileDetailVC = [segue destinationViewController];
+    
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    
+    profileDetailVC.event = self.user.events[indexPath.row];
+    
+}
 @end

@@ -250,6 +250,7 @@
     danielEvent1.headline = @"Finishing the HTML/CSS course on Codeacademy and then progressing to Ruby";
     danielEvent1.pivotPoint = YES;
     daniel.picture = [UIImage imageNamed:daniel.name];
+    [daniel.events addObject:danielEvent1];
     
     
     User *henna = [User new];
@@ -263,7 +264,7 @@
     hennaEvent1.headline = @"Taking a web development course with Codeacamdey after college.";
     hennaEvent1.pivotPoint = YES;
     henna.picture = [UIImage imageNamed:henna.name];
-    
+    [henna.events addObject:hennaEvent1];
     
     User *shena = [User new];
     
@@ -276,6 +277,7 @@
     shenaEvent1.headline = @"Getting into the AccessCode Program for iOS!";
     shenaEvent1.pivotPoint = YES;
     shena.picture = [UIImage imageNamed:shena.name];
+    [shena.events addObject:shenaEvent1];
     
     
     User *varindra = [User new];
@@ -289,6 +291,7 @@
     varindraEvent1.headline = @"Taking a Computer Science course in C++!";
     varindraEvent1.pivotPoint = YES;
     varindra.picture = [UIImage imageNamed:varindra.name];
+    [varindra.events addObject:varindraEvent1];
     
     
     User *justine = [User new];
@@ -302,6 +305,7 @@
     justineEvent1.headline = @"When I decided to enhance my Graphic design background by taking free tutorials on Web design";
     justineEvent1.pivotPoint = YES;
     justine.picture = [UIImage imageNamed:justine.name];
+    [justine.events addObject:justineEvent1];
     
     
     User *jamaal = [User new];
@@ -315,7 +319,7 @@
     jamaalEvent1.headline = @"After discussing UI/UX design with a friend, I decided to give programming a shot and started by building wesbites for my friend";
     jamaalEvent1.pivotPoint = YES;
     jamaal.picture = [UIImage imageNamed:jamaal.name];
-    
+    [jamaal.events addObject:jamaalEvent1];
     
     User *mike = [User new];
     
@@ -328,7 +332,7 @@
     mikeEvent1.headline = @"I took a course in college called Digital Media  and Entertainment. I created my first website...the rest is history";
     mikeEvent1.pivotPoint = YES;
     mike.picture = [UIImage imageNamed:mike.name];
-    
+    [mike.events addObject:mikeEvent1];
     
     [self.users addObject:jovanny];
     [self.users addObject:lauren];

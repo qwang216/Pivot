@@ -13,4 +13,11 @@
 @property (weak, nonatomic) IBOutlet UILabel *headlineLabel;
 @property (weak, nonatomic) IBOutlet UILabel *yearLabel;
 
+
+
+@property (strong, nonatomic) IBOutlet UILabel *yearLabel2;
+
+
+@property (strong, nonatomic) IBOutlet UILabel *headLineLabel2;
+
 @end

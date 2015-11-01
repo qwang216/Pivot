@@ -9,7 +9,7 @@
 #import "PivotTechieProfileDetailViewController.h"
 #import <ChameleonFramework/Chameleon.h>
 
-@interface PivotTechieProfileDetailViewController ()
+@interface PivotTechieProfileDetailViewController () 
 @property (strong, nonatomic) IBOutlet UILabel *yearLabel;
 @property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
 
@@ -20,11 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    // Do any additional setup after loading the view.
-
-    self.yearLabel.text = self.event.year;
-    self.descriptionTextView.text = self.event.details;
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    UINavigationController *nav = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileNavControllerID"];
+    
+    AddExperienceViewController *vc = (AddExperienceViewController *)nav.topViewController;
+    vc.delegate = self;
+    
+}
+
 
 
 @end

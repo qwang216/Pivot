@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "Event.h"
+#import "AddExperienceViewController.h"
+
+
 
 @interface PivotTechieProfileDetailViewController : UIViewController
 

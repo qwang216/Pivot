@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Event.h"
+
+
+@class AddExperienceViewController;
+
+
+@protocol AddExperienceViewControllerDelegate <NSObject>
+
+-(void)didAddExperienceWithEvent:(Event *)event;
+
+@end
 
 @interface AddExperienceViewController : UIViewController
+
+@property (nonatomic, weak) id <AddExperienceViewControllerDelegate> delegate;
 
 @end

@@ -7,11 +7,15 @@
 //
 
 #import "AddExperienceViewController.h"
+#import "Event.h"
+#import "PivotTechieProfileDetailViewController.h"
+
 
 @interface AddExperienceViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *yearTextField;
 @property (weak, nonatomic) IBOutlet UITextField *headlineTextField;
 @property (weak, nonatomic) IBOutlet UITextView *detailTextView;
+@property (nonatomic) Event *event;
 
 @end
 
@@ -19,28 +23,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.event = [Event new];
 }
 
-- (IBAction)switchForPivotPoint:(id)sender {
+- (IBAction)switchForPivotPoint:(UISwitch *)sender {
+    self.event.pivotPoint = sender;
 }
 
-- (IBAction)saveButtonTapped:(id)sender {
+- (IBAction)saveButtonTapped:(UIButton *)sender {
+    self.event.year = self.yearTextField.text;
+    self.event.headline = self.headlineTextField.text;
+    self.event.details = self.detailTextView.text;
+    
+    [self.delegate didAddExperienceWithEvent:self.event];
+    
+    [self.navigationController popViewControllerAnimated:YES];
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

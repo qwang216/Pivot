@@ -44,23 +44,27 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    TimelineRightTableViewCell *rightCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileRightTVCID" forIndexPath:indexPath];
-    rightCell.yearLabel.text = self.user.events[indexPath.row].year;
-    rightCell.headlineLabel.text = self.user.events[indexPath.row].headline;
-    
-    TimelineLeftTableViewCell *leftCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileLeftTVCID" forIndexPath:indexPath];
-    leftCell.yearLabel.text = self.user.events[indexPath.row].year;
-    leftCell.headlineLabel.text = self.user.events[indexPath.row].headline;
+ 
+   
     if (indexPath.row % 2) {
+        TimelineLeftTableViewCell *leftCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileLeftTVCID" forIndexPath:indexPath];
+        leftCell.yearLabel.text = self.user.events[indexPath.row].year;
+        leftCell.headlineLabel.text = self.user.events[indexPath.row].headline;
+        
         return leftCell;
     } else {
+        
+        TimelineRightTableViewCell *rightCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileRightTVCID" forIndexPath:indexPath];
+        rightCell.yearLabel.text = self.user.events[indexPath.row].year;
+        rightCell.headlineLabel.text = self.user.events[indexPath.row].headline;
+        
         return rightCell;
     }
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
 }
 

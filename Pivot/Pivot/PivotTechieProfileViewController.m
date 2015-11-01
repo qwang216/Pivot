@@ -18,7 +18,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *educationLabel;
 @property (strong, nonatomic) IBOutlet UILabel *professionLabel;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
-@property (nonatomic) Event *timeLineEvent;
 
 @end
 
@@ -32,7 +31,9 @@
     UINib *nibRight = [UINib nibWithNibName:@"TimelineRightTableViewCell" bundle:nil];
     [self.tableView registerNib:nibRight forCellReuseIdentifier:@"TimeLineRightTVCID"];
     
+    
     self.tableView.delegate = self;
+    self.tableView.dataSource = self;
     
     self.profileImageView.image = self.user.picture;
     self.nameLabel.text = self.user.name;
@@ -43,7 +44,6 @@
 
 #pragma mark - UITableViewDataSource 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSLog(@"%lu",(unsigned long)self.user.events.count);
     return self.user.events.count;
 }
 
@@ -59,6 +59,8 @@
     leftCell.headlineLabel.text = self.user.events[indexPath.row].headline;
     if (indexPath.row % 2) {
         return rightCell;
+    } else if (indexPath.row == 0){
+        return leftCell;
     } else {
         return leftCell;
     }

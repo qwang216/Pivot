@@ -222,48 +222,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bRP-Of-NVP">
-                                <rect key="frame" x="0.0" y="83" width="600" height="480"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60B-tw-FCa">
-                                        <rect key="frame" x="20" y="101" width="42" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUU-Oo-9tc">
-                                        <rect key="frame" x="519" y="20" width="42" height="20.5"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvV-SP-5bS">
-                                        <rect key="frame" x="544" y="429" width="36" height="30"/>
-                                        <animations/>
-                                        <state key="normal" title="Send"/>
-                                        <connections>
-                                            <action selector="sendButtonTapped:" destination="E2Q-gP-uPN" eventType="touchUpInside" id="eUT-Vl-wLo"/>
-                                        </connections>
-                                    </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a3q-dm-DpI">
-                                        <rect key="frame" x="252" y="430" width="97" height="30"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                </subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60B-tw-FCa">
+                                <rect key="frame" x="20" y="181" width="42" height="21"/>
                                 <animations/>
-                            </scrollView>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUU-Oo-9tc">
+                                <rect key="frame" x="538" y="117" width="42" height="19"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Ze7-RW-tcw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvV-SP-5bS">
+                                <rect key="frame" x="544" y="513" width="36" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendButtonTapped:" destination="E2Q-gP-uPN" eventType="touchUpInside" id="eUT-Vl-wLo"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a3q-dm-DpI">
+                                <rect key="frame" x="250" y="494" width="100" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="hEY-oh-r4z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bRP-Of-NVP" firstAttribute="top" secondItem="x0x-NY-Xl2" secondAttribute="bottom" constant="19" id="5Jf-0v-YH2"/>
-                            <constraint firstAttribute="bottom" secondItem="bRP-Of-NVP" secondAttribute="bottom" constant="37" id="akV-Cc-4pa"/>
-                            <constraint firstItem="bRP-Of-NVP" firstAttribute="leading" secondItem="AkS-eJ-3Sx" secondAttribute="leading" id="jz9-wF-8EV"/>
-                            <constraint firstAttribute="trailing" secondItem="bRP-Of-NVP" secondAttribute="trailing" id="sc1-9h-13t"/>
+                            <constraint firstItem="IUU-Oo-9tc" firstAttribute="trailing" secondItem="AkS-eJ-3Sx" secondAttribute="trailingMargin" id="03l-vx-XlJ"/>
+                            <constraint firstItem="60B-tw-FCa" firstAttribute="leading" secondItem="AkS-eJ-3Sx" secondAttribute="leadingMargin" id="9Ts-8c-bX1"/>
+                            <constraint firstItem="a3q-dm-DpI" firstAttribute="leading" secondItem="AkS-eJ-3Sx" secondAttribute="leadingMargin" constant="230" id="GQt-76-KLc"/>
+                            <constraint firstItem="60B-tw-FCa" firstAttribute="top" secondItem="x0x-NY-Xl2" secondAttribute="bottom" constant="117" id="GhP-Pv-b3N"/>
+                            <constraint firstItem="O38-L0-ahU" firstAttribute="top" secondItem="a3q-dm-DpI" secondAttribute="bottom" constant="27" id="PGZ-fo-VSQ"/>
+                            <constraint firstItem="IUU-Oo-9tc" firstAttribute="top" secondItem="x0x-NY-Xl2" secondAttribute="bottom" constant="53" id="QAt-MS-xT6"/>
+                            <constraint firstItem="O38-L0-ahU" firstAttribute="top" secondItem="uvV-SP-5bS" secondAttribute="bottom" constant="8" id="SLD-Uh-IQH"/>
+                            <constraint firstItem="uvV-SP-5bS" firstAttribute="trailing" secondItem="AkS-eJ-3Sx" secondAttribute="trailingMargin" id="XVK-No-Ro1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="guQ-tu-Kfu"/>

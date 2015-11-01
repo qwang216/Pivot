@@ -210,10 +210,10 @@
             </objects>
             <point key="canvasLocation" x="973" y="274"/>
         </scene>
-        <!--Resources View Controller-->
+        <!--Messages View Controller-->
         <scene sceneID="Iba-bL-QgD">
             <objects>
-                <viewController id="E2Q-gP-uPN" customClass="ResourcesViewController" sceneMemberID="viewController">
+                <viewController id="E2Q-gP-uPN" customClass="MessagesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x0x-NY-Xl2"/>
                         <viewControllerLayoutGuide type="bottom" id="O38-L0-ahU"/>
@@ -222,20 +222,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAE-yj-5oU">
-                                <rect key="frame" x="20" y="91" width="81" height="21"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bRP-Of-NVP">
+                                <rect key="frame" x="0.0" y="83" width="600" height="480"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60B-tw-FCa">
+                                        <rect key="frame" x="20" y="101" width="42" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUU-Oo-9tc">
+                                        <rect key="frame" x="519" y="20" width="42" height="20.5"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvV-SP-5bS">
+                                        <rect key="frame" x="544" y="429" width="36" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Send"/>
+                                        <connections>
+                                            <action selector="sendButtonTapped:" destination="E2Q-gP-uPN" eventType="touchUpInside" id="eUT-Vl-wLo"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a3q-dm-DpI">
+                                        <rect key="frame" x="252" y="430" width="97" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </scrollView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bRP-Of-NVP" firstAttribute="top" secondItem="x0x-NY-Xl2" secondAttribute="bottom" constant="19" id="5Jf-0v-YH2"/>
+                            <constraint firstAttribute="bottom" secondItem="bRP-Of-NVP" secondAttribute="bottom" constant="37" id="akV-Cc-4pa"/>
+                            <constraint firstItem="bRP-Of-NVP" firstAttribute="leading" secondItem="AkS-eJ-3Sx" secondAttribute="leading" id="jz9-wF-8EV"/>
+                            <constraint firstAttribute="trailing" secondItem="bRP-Of-NVP" secondAttribute="trailing" id="sc1-9h-13t"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="guQ-tu-Kfu"/>
                     <connections>
-                        <outlet property="resourcesLabel" destination="TAE-yj-5oU" id="uZr-Ed-L8p"/>
+                        <outlet property="messageTextField" destination="a3q-dm-DpI" id="KBK-cW-fBz"/>
+                        <outlet property="receiverLabel" destination="60B-tw-FCa" id="ITg-0r-gXb"/>
+                        <outlet property="senderLabel" destination="IUU-Oo-9tc" id="q6H-Kt-ylD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3Z-xX-Iay" userLabel="First Responder" sceneMemberID="firstResponder"/>

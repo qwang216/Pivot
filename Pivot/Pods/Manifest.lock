@@ -3,13 +3,16 @@ PODS:
     - ChameleonFramework/Default (= 2.0.4)
   - ChameleonFramework/Default (2.0.4)
   - CROCOVideoBackground (1.0.0)
+  - IQKeyboardManager (3.3.4)
 
 DEPENDENCIES:
   - ChameleonFramework
   - CROCOVideoBackground
+  - IQKeyboardManager
 
 SPEC CHECKSUMS:
   ChameleonFramework: 5abe69b1f2a6cc79c3c435fcd9d3d855748225ee
   CROCOVideoBackground: 0d23ce3c9016cea96acd62b540a6a59f3b438414
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
 
 COCOAPODS: 0.38.2

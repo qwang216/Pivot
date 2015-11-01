@@ -63,9 +63,13 @@
     jovanny.interests = [NSMutableArray new];
     [jovanny.interests addObject:jovannyInterest1];
     
-    jovanny.education.degreeType = @"Some college";
-    jovanny.education.school = @"Borough of Manhattan Community College";
-    jovanny.education.major = @"Computer Science";
+    Education *jovannyEducation = [Education new];
+    jovannyEducation.degreeType = @"Some college";
+    jovannyEducation.school = @"Borough of Manhattan Community College";
+    jovannyEducation.major = @"Computer Science";
+    
+    jovanny.education = jovannyEducation;
+    
     
     jovanny.picture = [UIImage imageNamed:jovanny.name];
     
@@ -118,9 +122,14 @@
     lauren.interests = [NSMutableArray new];
     [lauren.interests addObject:laurenInterest1];
     
-    lauren.education.degreeType = @"Bachelor";
-    lauren.education.school = @"Stony Brook University";
-    lauren.education.major = @"Fine Arts, Digital Arts";
+    
+    Education *laurenEducation = [Education new];
+    laurenEducation.degreeType = @"Bachelor";
+    laurenEducation.school = @"Stony Brook University";
+    laurenEducation.major = @"Fine Arts, Digital Arts";
+    
+    lauren.education = laurenEducation;
+    
     
     lauren.picture = [UIImage imageNamed:lauren.name];
     
@@ -160,9 +169,13 @@
     mesfin.interests = [NSMutableArray new];
     [mesfin.interests addObject:mesfinInterest1];
     
-    mesfin.education.degreeType = @"Bachelor of Arts";
-    mesfin.education.school = @"Kalamazoo College";
-    mesfin.education.major = @"Mathematics";
+    Education *mesfinEducation = [Education new];
+    mesfinEducation.degreeType = @"Bachelor of Arts";
+    mesfinEducation.school = @"Kalamazoo College";
+    mesfinEducation.major = @"Mathematics";
+    
+    mesfin.education = mesfinEducation;
+    
     
     mesfin.picture = [UIImage imageNamed:mesfin.name];
     
@@ -214,17 +227,120 @@
     [jason.interests addObject:jasonInterest2];
     [jason.interests addObject:jasonInterest3];
     
-    jason.education.degreeType = @"Bachelor Degree";
-    jason.education.school = @"Queens College";
-    jason.education.major = @"Biology";
+    Education *jasonEducation = [Education new];
+    jasonEducation.degreeType = @"Bachelor Degree";
+    jasonEducation.school = @"Queens College";
+    jasonEducation.major = @"Biology";
+    
+    jason.education = jasonEducation;
+    
     
     jason.picture = [UIImage imageNamed:jason.name];
+    
+    
+    
+    User *daniel = [User new];
+    
+    daniel.name = @"Daniel";
+    daniel.profession = @"iOS Developer";
+    daniel.events = [NSMutableArray new];
+    
+    Event *danielEvent1 = [Event new];
+    danielEvent1.year = @"2015";
+    danielEvent1.headline = @"Finishing the HTML/CSS course on Codeacademy and then progressing to Ruby";
+    danielEvent1.pivotPoint = YES;
+    daniel.picture = [UIImage imageNamed:daniel.name];
+    
+    
+    User *henna = [User new];
+    
+    henna.name = @"Henna";
+    henna.profession = @"iOS Developer";
+    henna.events = [NSMutableArray new];
+    
+    Event *hennaEvent1 = [Event new];
+    hennaEvent1.year = @"2014";
+    hennaEvent1.headline = @"Taking a web development course with Codeacamdey after college.";
+    hennaEvent1.pivotPoint = YES;
+    henna.picture = [UIImage imageNamed:henna.name];
+    
+    
+    User *shena = [User new];
+    
+    shena.name = @"Shena";
+    shena.profession = @"iOS Developer";
+    shena.events = [NSMutableArray new];
+    
+    Event *shenaEvent1 = [Event new];
+    shenaEvent1.year = @"2015";
+    shenaEvent1.headline = @"Getting into the AccessCode Program for iOS!";
+    shenaEvent1.pivotPoint = YES;
+    shena.picture = [UIImage imageNamed:shena.name];
+    
+    
+    User *varindra = [User new];
+    
+    varindra.name = @"V";
+    varindra.profession = @"iOS Developer";
+    varindra.events = [NSMutableArray new];
+    
+    Event *varindraEvent1 = [Event new];
+    varindraEvent1.year = @"2011";
+    varindraEvent1.headline = @"Taking a Computer Science course in C++!";
+    varindraEvent1.pivotPoint = YES;
+    varindra.picture = [UIImage imageNamed:varindra.name];
+    
+    
+    User *justine = [User new];
+    
+    justine.name = @"Justine";
+    justine.profession = @"iOS Developer";
+    justine.events = [NSMutableArray new];
+    
+    Event *justineEvent1 = [Event new];
+    justineEvent1.year = @"2015";
+    justineEvent1.headline = @"When I decided to enhance my Graphic design background by taking free tutorials on Web design";
+    justineEvent1.pivotPoint = YES;
+    justine.picture = [UIImage imageNamed:justine.name];
+    
+    
+    User *jamaal = [User new];
+    
+    jamaal.name = @"Jamaal";
+    jamaal.profession = @"iOS Developer";
+    jamaal.events = [NSMutableArray new];
+    
+    Event *jamaalEvent1 = [Event new];
+    jamaalEvent1.year = @"2015";
+    jamaalEvent1.headline = @"After discussing UI/UX design with a friend, I decided to give programming a shot and started by building wesbites for my friend";
+    jamaalEvent1.pivotPoint = YES;
+    jamaal.picture = [UIImage imageNamed:jamaal.name];
+    
+    
+    User *mike = [User new];
+    
+    mike.name = @"Mike";
+    mike.profession = @"Lead iOS Developer";
+    mike.events = [NSMutableArray new];
+    
+    Event *mikeEvent1 = [Event new];
+    mikeEvent1.year = @"2009";
+    mikeEvent1.headline = @"I took a course in college called Digital Media  and Entertainment. I created my first website...the rest is history";
+    mikeEvent1.pivotPoint = YES;
+    mike.picture = [UIImage imageNamed:mike.name];
     
     
     [self.users addObject:jovanny];
     [self.users addObject:lauren];
     [self.users addObject:mesfin];
     [self.users addObject:jason];
+    [self.users addObject:mike];
+    [self.users addObject:jamaal];
+    [self.users addObject:shena];
+    [self.users addObject:henna];
+    [self.users addObject:justine];
+    [self.users addObject:daniel];
+    [self.users addObject:varindra];
     
 }
 

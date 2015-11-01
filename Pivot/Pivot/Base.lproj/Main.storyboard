@@ -121,41 +121,19 @@
         <scene sceneID="Zcp-Vz-kMQ">
             <objects>
                 <tableViewController id="9NP-en-HiX" customClass="PivotFeedTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="404" sectionHeaderHeight="28" sectionFooterHeight="28" id="c74-p6-FGg">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="457" sectionHeaderHeight="28" sectionFooterHeight="28" id="c74-p6-FGg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PivotTVCID" rowHeight="404" id="DJZ-kw-JQT" customClass="PivotFeedTableViewCell">
-                                <rect key="frame" x="0.0" y="92" width="600" height="404"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PivotTVCID" rowHeight="457" id="DJZ-kw-JQT" customClass="PivotFeedTableViewCell">
+                                <rect key="frame" x="0.0" y="92" width="600" height="457"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DJZ-kw-JQT" id="AJt-mk-T0d">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="403.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="456.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S9j-36-VLh">
-                                            <rect key="frame" x="8" y="315" width="75" height="75"/>
-                                            <animations/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="75" id="0kE-pG-dNp"/>
-                                                <constraint firstAttribute="width" constant="75" id="ggn-PM-kvj"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmc-sp-LQY">
-                                            <rect key="frame" x="113" y="315" width="479" height="20.5"/>
-                                            <animations/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="beP-iS-jgu">
-                                            <rect key="frame" x="113" y="345.5" width="479" height="20.5"/>
-                                            <animations/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MPd-cg-Kmn">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
                                             <animations/>
@@ -163,31 +141,39 @@
                                                 <constraint firstAttribute="height" constant="300" id="FJv-5U-xgQ"/>
                                             </constraints>
                                         </imageView>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGo-bq-yvI">
+                                            <rect key="frame" x="113" y="336" width="479" height="105.5"/>
+                                            <animations/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmc-sp-LQY">
+                                            <rect key="frame" x="113" y="314" width="479" height="20.5"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <animations/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="MPd-cg-Kmn" secondAttribute="trailing" id="0nR-GA-5Y8"/>
-                                        <constraint firstItem="beP-iS-jgu" firstAttribute="top" secondItem="kmc-sp-LQY" secondAttribute="bottom" constant="10" id="2xP-Hz-9AP"/>
                                         <constraint firstItem="MPd-cg-Kmn" firstAttribute="top" secondItem="AJt-mk-T0d" secondAttribute="top" id="3Js-cs-aAL"/>
                                         <constraint firstItem="MPd-cg-Kmn" firstAttribute="leading" secondItem="AJt-mk-T0d" secondAttribute="leading" id="7ZM-jr-dp4"/>
-                                        <constraint firstItem="S9j-36-VLh" firstAttribute="top" secondItem="MPd-cg-Kmn" secondAttribute="bottom" constant="15" id="L6E-cC-wo9"/>
                                         <constraint firstItem="kmc-sp-LQY" firstAttribute="top" secondItem="MPd-cg-Kmn" secondAttribute="bottom" constant="15" id="O4c-7B-XNX"/>
-                                        <constraint firstItem="beP-iS-jgu" firstAttribute="leading" secondItem="S9j-36-VLh" secondAttribute="trailing" constant="30" id="OPF-X0-Ps5"/>
                                         <constraint firstAttribute="trailing" secondItem="kmc-sp-LQY" secondAttribute="trailing" constant="8" id="bXk-Dg-Cnp"/>
-                                        <constraint firstAttribute="trailing" secondItem="beP-iS-jgu" secondAttribute="trailing" constant="8" id="jHT-zg-4xk"/>
-                                        <constraint firstItem="S9j-36-VLh" firstAttribute="leading" secondItem="AJt-mk-T0d" secondAttribute="leading" constant="8" id="jSu-7x-Bs2"/>
-                                        <constraint firstItem="kmc-sp-LQY" firstAttribute="leading" secondItem="S9j-36-VLh" secondAttribute="trailing" constant="30" id="x2E-fn-hJa"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <animations/>
                                 <connections>
                                     <outlet property="jobLabel" destination="kmc-sp-LQY" id="Hn9-Hz-Gjn"/>
-                                    <outlet property="pivotHeadLineLabel" destination="beP-iS-jgu" id="yXs-fh-p31"/>
                                     <outlet property="pivotImageView" destination="MPd-cg-Kmn" id="usB-Om-eF0"/>
-                                    <outlet property="profileImageView" destination="S9j-36-VLh" id="BG7-Vc-1hV"/>
+                                    <outlet property="pivotPoint" destination="FGo-bq-yvI" id="G1x-3z-zf5"/>
                                     <segue destination="1WH-Bm-ica" kind="show" id="Gde-nJ-bOW">
-                                        <segue key="commit" inheritsFrom="parent" id="Her-Lm-cgR"/>
-                                        <segue key="preview" inheritsFrom="commit" id="gzL-Et-pu2"/>
+                                        <segue key="commit" inheritsFrom="parent" id="a37-Ok-4z3"/>
+                                        <segue key="preview" inheritsFrom="commit" id="iU4-aM-eum"/>
                                     </segue>
                                 </connections>
                             </tableViewCell>

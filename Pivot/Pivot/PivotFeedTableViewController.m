@@ -22,6 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -66,7 +67,7 @@
         Event *event = currentUser.events[i];
         
         if (event.pivotPoint) {
-            cell.pivotHeadLineLabel.text = event.headline;
+            cell.pivotPoint.text = event.details;
         }
     }
     return cell;

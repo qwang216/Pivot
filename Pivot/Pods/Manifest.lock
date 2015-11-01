@@ -2,11 +2,14 @@ PODS:
   - ChameleonFramework (2.0.4):
     - ChameleonFramework/Default (= 2.0.4)
   - ChameleonFramework/Default (2.0.4)
+  - CROCOVideoBackground (1.0.0)
 
 DEPENDENCIES:
   - ChameleonFramework
+  - CROCOVideoBackground
 
 SPEC CHECKSUMS:
   ChameleonFramework: 5abe69b1f2a6cc79c3c435fcd9d3d855748225ee
+  CROCOVideoBackground: 0d23ce3c9016cea96acd62b540a6a59f3b438414
 
 COCOAPODS: 0.38.2

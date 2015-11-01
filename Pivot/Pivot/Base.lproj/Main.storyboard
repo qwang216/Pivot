@@ -299,7 +299,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9j-Je-CUw">
                                         <rect key="frame" x="150" y="89.5" width="125" height="30"/>
                                         <animations/>
-                                        <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125" id="djd-Dn-AA6"/>
                                         </constraints>
@@ -353,7 +353,7 @@
                                                         </label>
                                                     </subviews>
                                                     <animations/>
-                                                    <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="90" id="0Pa-K7-tor"/>
                                                         <constraint firstItem="9ou-3n-0MG" firstAttribute="centerX" secondItem="G7d-pZ-tTO" secondAttribute="centerX" id="8vu-dl-Cgs"/>
@@ -418,7 +418,7 @@
                                                         </label>
                                                     </subviews>
                                                     <animations/>
-                                                    <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="KbD-VM-1wL" firstAttribute="centerY" secondItem="7Ap-PJ-E8R" secondAttribute="centerY" id="BDs-KY-u8d"/>
                                                         <constraint firstItem="KbD-VM-1wL" firstAttribute="centerX" secondItem="7Ap-PJ-E8R" secondAttribute="centerX" id="VwT-ok-0WG"/>
@@ -576,7 +576,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IxZ-Bx-xAa">
                                 <rect key="frame" x="100" y="357.5" width="400" height="28"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="13"/>
                                 <color key="tintColor" red="0.37881146729999998" green="0.88614004629999998" blue="0.33100621499999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="SAVE">
@@ -751,7 +751,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zzw-aP-aNc">
                                         <rect key="frame" x="145" y="83.5" width="125" height="30"/>
                                         <animations/>
-                                        <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125" id="La4-ga-B7E"/>
                                         </constraints>
@@ -811,7 +811,7 @@
                                                         </label>
                                                     </subviews>
                                                     <animations/>
-                                                    <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="90" id="5fN-sP-j9P"/>
                                                         <constraint firstItem="V1U-2N-viW" firstAttribute="centerX" secondItem="1tm-Vs-azf" secondAttribute="centerX" id="Mde-G0-KPY"/>
@@ -859,7 +859,7 @@
                                                         </label>
                                                     </subviews>
                                                     <animations/>
-                                                    <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="kqC-vW-IQy" firstAttribute="centerX" secondItem="yTd-E1-xaK" secondAttribute="centerX" id="XvU-Es-ZCO"/>
                                                         <constraint firstItem="kqC-vW-IQy" firstAttribute="top" secondItem="yTd-E1-xaK" secondAttribute="top" constant="34" id="Zdb-i7-Ksn"/>
@@ -917,7 +917,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="z3s-uL-hva"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="Circled User Male-50" id="z3s-uL-hva"/>
                     <navigationItem key="navigationItem" id="1M1-rB-jSx">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="xZ6-xG-tOj">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -998,9 +998,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCu-YP-8VP">
                                 <rect key="frame" x="100" y="450" width="400" height="30"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.23137254901960785" green="0.80000000000000004" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="SAVE INFORMATION">
+                                <state key="normal" title="SAVE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -1084,7 +1085,7 @@
         <scene sceneID="S3S-wj-oKe">
             <objects>
                 <navigationController title="Pivot Feed" automaticallyAdjustsScrollViewInsets="NO" id="ta2-fB-off" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Pivot Feed" id="Och-Jk-IJ2"/>
+                    <tabBarItem key="tabBarItem" title="Pivot Feed" image="Activity Feed 2-50" id="Och-Jk-IJ2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kns-QD-sfI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1104,7 +1105,7 @@
         <scene sceneID="IZa-Y0-Pqk">
             <objects>
                 <navigationController title="Resources" automaticallyAdjustsScrollViewInsets="NO" id="Xcr-rg-2ke" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Resources" id="dE7-wj-Ael"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="Message-50" id="dE7-wj-Ael"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aO2-qk-sk3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1122,6 +1123,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Activity Feed 2-50" width="30" height="30"/>
+        <image name="Circled User Male-50" width="30" height="30"/>
+        <image name="Message-50" width="30" height="30"/>
         <image name="PIVOT-logo" width="800" height="330"/>
     </resources>
     <inferredMetricsTieBreakers>

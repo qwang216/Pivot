@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Event.h"
 
 @interface ProfileDetailViewController : UIViewController
 
+@property (nonatomic) Event *event;
 @end

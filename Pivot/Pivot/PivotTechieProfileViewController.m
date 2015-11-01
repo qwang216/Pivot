@@ -38,6 +38,10 @@
     self.educationLabel.text = [NSString stringWithFormat:@"%@ - %@", self.user.education.school, self.user.education.degreeType];
     }
     self.professionLabel.text = self.user.profession;
+    
+    
+     [self.tableView setSeparatorColor:[UIColor clearColor]];
+    
 }
 
 
@@ -55,6 +59,8 @@
         TimelineLeftTableViewCell *leftCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileLeftTVCID" forIndexPath:indexPath];
         leftCell.yearLabel.text = self.user.events[indexPath.row].year;
         leftCell.headlineLabel.text = self.user.events[indexPath.row].headline;
+        leftCell.yearView.layer.cornerRadius = 45;
+        leftCell.yearView.layer.masksToBounds = YES;
         
         return leftCell;
     } else {
@@ -62,7 +68,8 @@
         TimelineRightTableViewCell *rightCell = [tableView dequeueReusableCellWithIdentifier:@"PivotProfileRightTVCID" forIndexPath:indexPath];
         rightCell.yearLabel.text = self.user.events[indexPath.row].year;
         rightCell.headlineLabel.text = self.user.events[indexPath.row].headline;
-        
+        rightCell.yearView.layer.cornerRadius = 45;
+        rightCell.yearView.layer.masksToBounds = YES;
         return rightCell;
     }
 }

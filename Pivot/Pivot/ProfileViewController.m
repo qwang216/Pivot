@@ -16,6 +16,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *nameLabel;
 @property (strong, nonatomic) IBOutlet UILabel *educationLabel;
 @property (strong, nonatomic) IBOutlet UILabel *professionLabel;
+@property (weak, nonatomic) IBOutlet UITableView *profileTimelineTableView;
 
 @end
 

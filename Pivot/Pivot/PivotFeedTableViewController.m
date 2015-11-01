@@ -11,10 +11,12 @@
 #import "PivotTechieProfileViewController.h"
 #import "Dataset.h"
 #import <ChameleonFramework/Chameleon.h>
+#import "QuartzCore/QuartzCore.h"
 
 
 @interface PivotFeedTableViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic) Dataset *tableViewData;
+
 
 @end
 
@@ -32,6 +34,7 @@
     UINib *nib = [UINib nibWithNibName:@"PivotFeedTableViewCell" bundle:nil];
     
     [self.tableView registerNib:nib forCellReuseIdentifier:@"PivotFeedCellID"];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -59,7 +62,8 @@
     User *currentUser = self.tableViewData.users[indexPath.row];
     
     cell.pivotImageView.image = currentUser.picture;
-    cell.jobLabel.text = currentUser.profession;
+    cell.jobLabel.text = [NSString stringWithFormat:@"%@, %@", currentUser.name, currentUser.profession];
+    
     
     
     for (int i = 0; i < [currentUser.events count]; i++) {

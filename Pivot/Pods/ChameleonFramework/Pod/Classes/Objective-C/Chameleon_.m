@@ -254,7 +254,7 @@
     }
     
     [[UIButton appearance] setTintColor:contentColor];
-    [[UIButton appearance] setBackgroundColor:primaryColor];
+//    [[UIButton appearance] setBackgroundColor:primaryColor];
     
     
     [[UIButton appearanceWhenContainedIn:[UISearchBar class], nil] setTintColor:contentColor];

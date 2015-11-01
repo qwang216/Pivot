@@ -34,20 +34,26 @@
                                             <constraint firstAttribute="height" constant="128" id="pdj-U1-jU2"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMh-t2-IST">
-                                        <rect key="frame" x="209" y="355.5" width="182" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMh-t2-IST">
+                                        <rect key="frame" x="210" y="355" width="180" height="40"/>
                                         <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Y6y-NQ-yXo"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                        <state key="normal" title="I WANT TO INSPIRE">
+                                        <state key="normal" title="INSPIRE SOMEONE">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="QZi-7R-yVd" kind="show" id="njv-1F-sVU"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwG-zJ-aQa">
-                                        <rect key="frame" x="246" y="410.5" width="108" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwG-zJ-aQa">
+                                        <rect key="frame" x="246" y="410" width="108" height="40"/>
                                         <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="dcD-Fs-Nka"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <state key="normal" title="INSPIRE ME">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -110,7 +116,9 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="giveInspirationButtonTapped" destination="cwG-zJ-aQa" id="y0p-u1-9kG"/>
                         <outlet property="videoView" destination="eJS-bR-8kW" id="Lmn-op-YUx"/>
+                        <outlet property="wantInspirationButtonTapped" destination="XMh-t2-IST" id="fek-Hg-XYr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -142,7 +150,7 @@
                                             </constraints>
                                         </imageView>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGo-bq-yvI">
-                                            <rect key="frame" x="10" y="343.5" width="580" height="106"/>
+                                            <rect key="frame" x="10" y="341.5" width="580" height="106"/>
                                             <animations/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
@@ -153,10 +161,10 @@
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmc-sp-LQY">
-                                            <rect key="frame" x="10" y="310" width="580" height="23.5"/>
+                                            <rect key="frame" x="15" y="310" width="575" height="23.5"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.23137254900000001" green="0.80000000000000004" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -164,9 +172,9 @@
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="MPd-cg-Kmn" secondAttribute="trailing" id="0nR-GA-5Y8"/>
                                         <constraint firstItem="MPd-cg-Kmn" firstAttribute="top" secondItem="AJt-mk-T0d" secondAttribute="top" id="3Js-cs-aAL"/>
-                                        <constraint firstItem="kmc-sp-LQY" firstAttribute="leading" secondItem="AJt-mk-T0d" secondAttribute="leading" constant="10" id="5nM-tj-A05"/>
+                                        <constraint firstItem="kmc-sp-LQY" firstAttribute="leading" secondItem="AJt-mk-T0d" secondAttribute="leading" constant="15" id="5nM-tj-A05"/>
                                         <constraint firstItem="MPd-cg-Kmn" firstAttribute="leading" secondItem="AJt-mk-T0d" secondAttribute="leading" id="7ZM-jr-dp4"/>
-                                        <constraint firstItem="FGo-bq-yvI" firstAttribute="top" secondItem="kmc-sp-LQY" secondAttribute="bottom" constant="10" id="ArR-fA-c7z"/>
+                                        <constraint firstItem="FGo-bq-yvI" firstAttribute="top" secondItem="kmc-sp-LQY" secondAttribute="bottom" constant="8" id="ArR-fA-c7z"/>
                                         <constraint firstAttribute="trailing" secondItem="FGo-bq-yvI" secondAttribute="trailing" constant="10" id="FSb-A0-uNz"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="FGo-bq-yvI" secondAttribute="bottom" constant="7.5" id="PKi-0G-suz"/>
                                         <constraint firstItem="kmc-sp-LQY" firstAttribute="top" secondItem="MPd-cg-Kmn" secondAttribute="bottom" constant="10" id="RoB-8z-jxZ"/>
@@ -279,7 +287,7 @@
                                         <rect key="frame" x="150" y="10" width="47.5" height="23.5"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.23137254900000001" green="0.80000000000000004" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Profession" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXI-OG-sE9">
@@ -1123,9 +1131,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Activity Feed 2-50" width="30" height="30"/>
-        <image name="Circled User Male-50" width="30" height="30"/>
-        <image name="Message-50" width="30" height="30"/>
+        <image name="Activity Feed 2-50" width="27" height="27"/>
+        <image name="Circled User Male-50" width="27" height="27"/>
+        <image name="Message-50" width="27" height="27"/>
         <image name="PIVOT-logo" width="800" height="330"/>
     </resources>
     <inferredMetricsTieBreakers>

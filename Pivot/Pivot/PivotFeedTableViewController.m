@@ -35,6 +35,8 @@
     
     [self.tableView registerNib:nib forCellReuseIdentifier:@"PivotFeedCellID"];
     
+    self.navigationController.navigationBar.topItem.title = @"Your Feed";
+    
 }
 
 - (void)didReceiveMemoryWarning {

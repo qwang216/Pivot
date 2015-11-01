@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		504F107C1BE5298800441202 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 504F107B1BE5298800441202 /* Event.m */; };
 		506437921BE561D200D0D1FB /* Dataset.m in Sources */ = {isa = PBXBuildFile; fileRef = 506437911BE561D200D0D1FB /* Dataset.m */; };
+		5090B5B11BE5B95B00460A48 /* PivotSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5090B5B01BE5B95B00460A48 /* PivotSignUpViewController.m */; };
+		5090B5B41BE5BE7100460A48 /* SharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5090B5B31BE5BE7100460A48 /* SharedManager.m */; };
 		892F706A1BE5A439008BD8F8 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 892F70691BE5A02A008BD8F8 /* video.mp4 */; };
 		893D974B1BE5475B001A6077 /* PivotFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97491BE5475B001A6077 /* PivotFeedTableViewCell.m */; };
 		893D97551BE548DD001A6077 /* TimelineLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893D97531BE548DD001A6077 /* TimelineLeftTableViewCell.m */; };
@@ -58,6 +60,10 @@
 		504F107B1BE5298800441202 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		506437901BE561D200D0D1FB /* Dataset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dataset.h; sourceTree = "<group>"; };
 		506437911BE561D200D0D1FB /* Dataset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dataset.m; sourceTree = "<group>"; };
+		5090B5AF1BE5B95B00460A48 /* PivotSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotSignUpViewController.h; sourceTree = "<group>"; };
+		5090B5B01BE5B95B00460A48 /* PivotSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PivotSignUpViewController.m; sourceTree = "<group>"; };
+		5090B5B21BE5BE7100460A48 /* SharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedManager.h; sourceTree = "<group>"; };
+		5090B5B31BE5BE7100460A48 /* SharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedManager.m; sourceTree = "<group>"; };
 		892F70691BE5A02A008BD8F8 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		893D97481BE5475B001A6077 /* PivotFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotFeedTableViewCell.h; sourceTree = "<group>"; };
 		893D97491BE5475B001A6077 /* PivotFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PivotFeedTableViewCell.m; sourceTree = "<group>"; };
@@ -236,7 +242,11 @@
 				D4E1185A1BE528C5000E0FBA /* AppDelegate.m */,
 				D4E1185C1BE528C5000E0FBA /* ViewController.h */,
 				D4E1185D1BE528C5000E0FBA /* ViewController.m */,
+				5090B5B21BE5BE7100460A48 /* SharedManager.h */,
+				5090B5B31BE5BE7100460A48 /* SharedManager.m */,
 				D4E1185F1BE528C5000E0FBA /* Main.storyboard */,
+				5090B5AF1BE5B95B00460A48 /* PivotSignUpViewController.h */,
+				5090B5B01BE5B95B00460A48 /* PivotSignUpViewController.m */,
 				893D976C1BE54FBC001A6077 /* ProfileDetailViewController.h */,
 				893D976D1BE54FBC001A6077 /* ProfileDetailViewController.m */,
 				893D97691BE54FAF001A6077 /* ProfileViewController.h */,
@@ -358,7 +368,7 @@
 				TargetAttributes = {
 					D4E118521BE528C5000E0FBA = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 55V3ELH4AV;
+						DevelopmentTeam = B4G65K7YME;
 					};
 					D4E1186E1BE528C5000E0FBA = {
 						CreatedOnToolsVersion = 7.1;
@@ -477,6 +487,7 @@
 				D4E118641BE528C5000E0FBA /* Pivot.xcdatamodeld in Sources */,
 				D4E1185E1BE528C5000E0FBA /* ViewController.m in Sources */,
 				893D976E1BE54FBC001A6077 /* ProfileDetailViewController.m in Sources */,
+				5090B5B41BE5BE7100460A48 /* SharedManager.m in Sources */,
 				DC6908921BE52A7F009AB0C0 /* User.m in Sources */,
 				D48A8E3D1BE55CB800223727 /* PivotTechieProfileViewController.m in Sources */,
 				893D976B1BE54FAF001A6077 /* ProfileViewController.m in Sources */,
@@ -491,6 +502,7 @@
 				893D974B1BE5475B001A6077 /* PivotFeedTableViewCell.m in Sources */,
 				893D97651BE54F71001A6077 /* PivotFeedTableViewController.m in Sources */,
 				DC6908951BE52B30009AB0C0 /* Interest.m in Sources */,
+				5090B5B11BE5B95B00460A48 /* PivotSignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +647,7 @@
 				INFOPLIST_FILE = Pivot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasonw.Pivot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jovanny.Pivot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -651,7 +663,7 @@
 				INFOPLIST_FILE = Pivot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasonw.Pivot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jovanny.Pivot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

@@ -7,6 +7,8 @@
 //
 
 #import "ProfileViewController.h"
+#import "SharedManager.h"
+#import "User.h"
 #import <ChameleonFramework/Chameleon.h>
 
 @interface ProfileViewController ()
@@ -21,6 +23,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    User *user = [SharedManager sharedModel].user;
+    
+    self.nameLabel.text = user.name;
+    self.educationLabel.text = [NSString stringWithFormat:@"%@ - %@", user.education.school,user.education.degreeType];
+    
+    
     // Do any additional setup after loading the view.
 }
 

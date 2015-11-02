@@ -19,6 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.yearLabel.text = self.event.year;
+    self.descriptionTextView.text = self.event.details;
+    
     self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
